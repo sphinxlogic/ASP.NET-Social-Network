@@ -1,0 +1,25 @@
+------- TODO
+* Definition of Moderation
+http://www.google.com/search?hl=en&q=define%3A+moderation&btnG=Google+Search&aq=f&oq=
+
+* need to follow Security Developer Lifecycle (SDL) best practices
+	* create a table that holds regex for input and output
+	* regex can replace found text permanently on input or only on output (not permanently)
+* need to have an UnAcceptable word list (filter competitor site names, cuss words, etc.)
+
+-------- Done
+* Create tables
+	* Moderations
+	* Gags
+* Create Repositories
+	* ModerationRepository
+	* GagRepository
+* Moderation Control
+	* supports reported count to sort by to show most flagged item
+	* items can't be moderated by anonymous user
+	* user moderated items
+	* site moderated items
+* User control panel & Site control panel
+	* sorts items by most frequently reported
+	* shows sub report of users that reported the item (use ProfileUserControl and sub query)
+* Add gag user support (not implemented)

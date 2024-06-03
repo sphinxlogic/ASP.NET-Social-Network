@@ -1,0 +1,9 @@
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\bin\Debug\app.config
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\bin\Debug\ConnectionStringToUse.xml
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\bin\Debug\Fisharoo.FisharooCore.dll.config
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\bin\Debug\Fisharoo.FisharooCore.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\bin\Debug\Fisharoo.FisharooCore.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\obj\Debug\FisharooCore.csproj.ResolveComReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\obj\Debug\Fisharoo.FisharooCore.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooCore\obj\Debug\Fisharoo.FisharooCore.pdb

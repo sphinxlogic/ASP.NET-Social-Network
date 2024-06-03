@@ -1,0 +1,364 @@
+﻿<%@ Import namespace="Fisharoo.FisharooCore.Core.Domain"%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="Fisharoo.FisharooWeb.SiteMaster" %>
+<%@ Register Src="~/UserControls/LogInLinks.ascx" TagName="LogInLinks" TagPrefix="Fisharoo" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">    
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        hr { border: solid 1px #cccccc; size: 1px; background-color: #cccccc; color: #cccccc; }
+        body {background-color:#dddddd; margin-top:0px; margin-left:0px; font-family: Arial}
+        .ContentTitle{padding:3px; position:relative;top:-40px;color:#5eb2e9;margin-left:5px;}
+        .Master {background-color:#ffffff; margin-right:auto; margin-left:auto; display:block; width:980px;}
+        .PageHeader { background-image:url(/images/Header.jpg); background-repeat:no-repeat;	width:980px; height:183px; }
+        .TipTopNavigation {color: #FFFFFF; position:relative; top:5px; left:450px; text-align:right; width:500px;}
+        TipTopNavigationLinks, a.TipTopNavigationLinks, a.TipTopNavigationLinks:Active 
+        {color: #FFFFFF; text-decoration:none;}
+        a.TipTopNavigationLinks:Hover {text-decoration:underline;color:#FFFFFF;}
+        .Navigation { font-family:Arial; position:relative; left:150px; }
+        .PrimaryNav { width:819px; position:absolute; top:104px; left:-10px; }
+        .PrimaryNavLink { position:relative; top:5px; left:10px; color:#FFFFFF; font-size:16px; padding-right:10px; text-decoration:none; font-weight:bold; }
+        .PrimaryNavLink:hover { text-decoration:underline; }
+        .PrimaryNavLinkActive {z-index:100;text-decoration:none; padding-bottom:10px; padding-right:10px;position:relative;top:5px;left:10px;color:#FF7828; background-image:url(/images/TopNavDownArrow.jpg); background-repeat:no-repeat; background-position: 0px 21px; overflow:visible; font-weight:bold;}
+        .SecondaryNav { width:819px; height:30px; background-color:#000000; color:#FF7828; position:relative; top:134px; }
+        .SecondaryNavLink {text-decoration:none; position:relative; top:5px; left:10px; color:#FF7828; font-size:12px; padding-right:10px; }
+        .LeftNav {width:100px; float:left; height:100%;}
+        .ContentMain { font-family:Arial;<%= ContentMainLeft %> position:relative; background-image:url(/images/ContentBackground.jpg); background-color:#c1dde8; width:819px; }
+        .ContentHeader {position:relative; background-image:url(/images/ContentHeader.jpg); background-repeat:no-repeat; width:819px; height:57px; }
+        .Content {display:block;background-image:url(/images/ContentFooter.jpg); background-position:bottom; background-repeat:no-repeat; padding:10px; position:relative;<%= ContentHeight %> min-height:423px; }
+        .ContentFooter { font-family:arial; color:#FF7828; background-color:#000000; font-size:12px; height:30px; }
+        .FooterCopyRight { position:relative; top:8px; padding-left:10px; float: left; }
+        .FooterLinks { position:relative; top:8px; float: right; }
+        .ContentFooterLink { color:#FF7828; text-decoration:none; padding-right:10px; }
+        .ContentFooterBackground { height:15px; background-color:#0a3158; width:980px; position:relative; z-index:50; }
+        .ContentFooterBackgroundHelper { height:35px;z-index:100;display:block;position:absolute;width:100%;background-color:#0a3158; }
+        
+        /* CONTENT STYLES */
+        .divContainer {font-size:12px;background-image:url(/images/transparent.gif); padding: 10px; width:90%; margin-left:auto;margin-right:auto;text-align:center; }
+        .divContainerBox {border:solid 1px #a3bdef; background-color:#ffffff;}
+        .divContainerRow { background-color:#ffffff;text-align:left; float:none; padding:5px;}
+        .divContainerCell { display: block; text-align:left; }
+        .divContainerFooter { text-align:right; }
+        .divContainerTitle {margin-bottom:5px;background-color:#d8dfea;border-bottom:solid 1px #a3bdef;border-top:solid 1px #5c76a4; font-weight:bold;text-align:left;padding-bottom:5px;padding-top:5px;padding-left:5px;}
+        .divContainerCellHeader {display:block; height:100%;padding-right:5px; width:150px;text-align:right;font-weight:bold;float:left; }
+        .divInnerRowHeader {text-align: right; width: 100px; font-size: 10px; color: #000000; font-weight:bold; float:left; padding-right: 5px; }
+        .divInnerRowCell { width: 100%; font-size: 10px; color: #000000; padding-left: 5px; }
+        .divContainerHelpText { font-size:10px; color:#777777; font-weight:normal; }
+        .divContainerSeparator { border-top:solid 1px #a3bdef; padding-top: 5px; padding-bottom: 5px; }
+        .Wizard { width:90%;padding:10px 10px 10px 10px; }
+        
+        /* PROFILE STYLES */
+        .ProfileName { font-size:16px; font-family:Arial; font-weight:bold;	}
+        
+        /* ALERT STYLES */
+        .AlertDateRow { }
+        .AlertHeader { font-weight:bold; text-align:left; }
+        .AlertHeader a { padding-left: 5px; }
+        .AlertRow { text-align:left; }
+        .AlertRow a { padding-left: 5px; }
+        .AlertIcon { }
+        .AlertSeparator { border-top:solid 1px #a3bdef; padding-top: 5px; padding-bottom: 5px; }
+        .AlertActionItems { }
+        
+        /* MAIL */
+        .Folders { border-top: solid 1px #a3bdef; width:150px;}
+        
+        /* Photos */
+        .albumsList { padding:10px; }
+        .albumsList li { display:inline; width:200px; height:300px; float:left; padding: 10px; }
+        .albumsTitle { font-weight:bold; }
+        .albumsAuthor, .albumsLocation, .albumsDescription { font-size:12px; }
+        .albumsActionLink { font-size:10px; }
+        
+        /* Blogs */
+        .blogsList { padding:10px; }
+        .blogsList li { display:inline; width:200px; height:200px; float:left; padding: 10px; }
+        .blogsTitle { font-weight:bold; }
+        .blogsAuthor, .blogsLocation, .blogsDescription { font-size:12px; }
+        .blogsActionLink { font-size:10px; }
+        
+        .photosList { padding:10px; }
+        .photosList li { display:inline; width:300px; height:200px; float:left; padding:10px; }
+        
+        /* Groups */
+        .groupsList { padding:10px; }
+        .groupsList li { display:inline; width:200px; height:200px; float:left; padding:10px; }
+        .groupsTitle { font-weight:bold; }
+        .groupsDescription { font-size:12px; }
+        .groupsActionLink { font-size:10px; }
+        
+        /* Ratings */
+        /* Rating */
+        .ratingStar 
+        {
+            font-size: 0pt;
+            width: 16px;
+            height: 16px;
+            margin: 0px;
+            padding: 0px;
+            cursor: pointer;
+            display: block;
+            background-repeat: no-repeat;
+        }
+
+        .ratingStarFilled
+        {
+            background-image: url(/images/staryellow.jpg);
+
+        }
+
+        .ratingStarEmpty
+        {
+            background-image: url(/images/stargrey.jpg);
+        }
+
+        .ratingStarSaved
+        {
+            background-image: url(/images/starred.jpg);
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+    xinha_editors = null;
+    xinha_editors = xinha_editors ? xinha_editors : [];
+</script>
+    <form id="form1" runat="server" enctype="multipart/form-data">  
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>  
+        <div class="Master">
+	        <div class="PageHeader">
+	            <div class="TipTopNavigation"><Fisharoo:LogInLinks ID="LogInLinks1" runat="server" /></div>
+		        <div class="Navigation">
+			        <div class="PrimaryNav">
+                        <asp:Repeater ID="repPrimaryNav" OnItemDataBound="repPrimaryNav_ItemDataBound" runat="server">
+                            <ItemTemplate>
+                                <asp:HyperLink ID="linkPrimaryNav" CssClass="PrimaryNavLink" runat="server"></asp:HyperLink>
+                            </ItemTemplate>
+                        </asp:Repeater>
+			            <asp:ContentPlaceHolder ID="PrimaryNav" runat="server"></asp:ContentPlaceHolder>
+			        </div>
+			        <div class="SecondaryNav">
+				        <asp:ContentPlaceHolder ID="SecondaryNav" runat="server"></asp:ContentPlaceHolder>
+                        <asp:Repeater ID="repSecondaryNav" OnItemDataBound="repSecondaryNav_ItemDataBound" runat="server">
+                            <ItemTemplate>
+                                <asp:HyperLink ID="linkSecondaryNav" CssClass="SecondaryNavLink" runat="server"></asp:HyperLink>
+                            </ItemTemplate>
+                        </asp:Repeater>
+			        </div>
+		        </div>
+	        </div>
+	        <table cellpadding="0" cellspacing="0" style="z-index:99; width:980px;">
+	            <tr>
+	                <td width="145" valign="top">
+	                    <div class="LeftNav">
+	                        <table style="width:150px;" cellpadding="0" cellspacing="0">
+	                            <tr>
+	                                <td>
+                                        <div class="divContainerTitle">
+                                            <asp:TextBox style="font-size:9px;height:14px;" Width="90" ID="txtSearch" runat="server"></asp:TextBox>
+                                            <asp:Button style="font-size:9px;padding-left:0px;padding-right:0px;" ID="ibSearch" runat="server" Text="Search" OnClick="ibSearch_Click" />
+                                        </div>
+	                                </td>
+	                            </tr>
+	                        </table>
+	                        <asp:ContentPlaceHolder ID="LeftNavTop" runat="server"></asp:ContentPlaceHolder>
+	                        <table style="width:150px;" cellpadding="0" cellspacing="0">
+	                            <tr>
+	                                <td>
+	                                    <asp:Panel ID="pnlStatusUpdate" runat="server">
+                                            <div class="divContainerTitle" style="width:150px;">Status Updates</div>
+                                            <div class="divContainerCell">
+                                                <asp:TextBox Width="85" style="font-size:9px;padding-left:0px;padding-right:0px;" id="txtStatusUpdate" runat="server"></asp:TextBox>
+                                                <asp:Button style="font-size:9px;padding-left:0px;padding-right:0px;" ID="btnAddStatus" runat="server" Text="Add" OnClick="btnAddStatus_Click" /><br />
+                                                <asp:Repeater runat="server" ID="repStatus">
+                                                    <ItemTemplate>
+                                                        <asp:Label ID="Label1" Text='<%# ((StatusUpdate)Container.DataItem).CreateDate.ToString() %>' runat="server" style="font-size:9px;"></asp:Label> - 
+                                                        <asp:Label ID="Label2" Text='<%# ((StatusUpdate)Container.DataItem).Status %>' runat="server" style="font-size:9px;"></asp:Label>
+                                                    </ItemTemplate>
+                                                    <SeparatorTemplate>
+                                                        <div class="divContainerSeparator"></div>
+                                                    </SeparatorTemplate>
+                                                </asp:Repeater><br />
+                                                <asp:Button ID="btnShowAllStatusUpdates" runat="server" Text="View All" OnClick="btnShowAllStatusUpdates_Click" />
+                                            </div>
+	                                    </asp:Panel>
+	                                </td>
+	                            </tr>
+	                        </table>
+	                        <asp:ContentPlaceHolder ID="LeftNavBottom" runat="server"></asp:ContentPlaceHolder>
+	                        
+	                    </div>
+	                </td>
+	                <td width="819">
+	                    <div class="ContentMain">
+		                    <div class="ContentHeader">
+		                        &nbsp;&nbsp;&nbsp;<h2 class="ContentTitle"><asp:Label ID="lblPageTitle" runat="server"></asp:Label></h2>
+		                        <asp:ContentPlaceHolder ID="ContentHeader" runat="server"></asp:ContentPlaceHolder>
+		                    </div>
+		                    <div class="Content" style="z-index:99">
+		                        <img width="1" height="400" align="left" />
+		                        <asp:ContentPlaceHolder ID="Content" runat="server"></asp:ContentPlaceHolder>
+		                    </div>
+		                    <div class="ContentFooter" style="z-index:0">
+			                    <div class="FooterCopyRight" style="float:left;">Fisharoo © 2008</div>
+			                    <div class="FooterLinks" style="float:right;">
+			                        <asp:Repeater OnItemDataBound="repFooter_ItemDataBound" ID="repFooterNav" runat="server">
+			                            <ItemTemplate>
+			                                <asp:HyperLink CssClass="ContentFooterLink" ID="linkFooterNav" runat="server"></asp:HyperLink>
+			                            </ItemTemplate>
+			                        </asp:Repeater>
+			                    </div>
+            			        
+		                    </div>
+	                    </div>
+	                </td>
+	            </tr>
+	        </table>	       
+	        <div class="ContentFooterBackground" style="z-index:1">
+	            <div class="ContentFooterBackgroundHelper"></div>
+	        </div>
+        </div>
+    </form>
+<script type="text/javascript">
+    // You must set _editor_url to the URL (including trailing slash) where
+    // where xinha is installed, it's highly recommended to use an absolute URL
+    //  eg: _editor_url = "/path/to/xinha/";
+    // You may try a relative URL if you wish]
+    //  eg: _editor_url = "../";
+    // in this example we do a little regular expression to find the absolute path.
+    //_editor_url  = document.location.href.replace(/examples\/.*/, '')
+    _editor_url = "<%= _webContext.RootUrl %>Xinha/";
+    _editor_lang = "en";      // And the language we need to use in the editor.
+  </script>
+
+  <!-- Load up the actual editor core -->
+  <script type="text/javascript" src="<%= _webContext.RootUrl %>Xinha/htmlarea.js"></script>
+
+  <script type="text/javascript">
+    //xinha_editors = null;
+    xinha_init    = null;
+    xinha_config  = null;
+    xinha_plugins = null;
+
+    // This contains the names of textareas we will make into Xinha editors
+    xinha_init = xinha_init ? xinha_init : function()
+    {
+      /** STEP 1 ***************************************************************
+       * First, what are the plugins you will be using in the editors on this
+       * page.  List all the plugins you will need, even if not all the editors
+       * will use all the plugins.
+       ************************************************************************/
+
+      xinha_plugins = xinha_plugins ? xinha_plugins :
+      [
+        'CharacterMap', 'SpellChecker', 'Linker'
+      ];
+             // THIS BIT OF JAVASCRIPT LOADS THE PLUGINS, NO TOUCHING  :)
+             if(!Xinha.loadPlugins(xinha_plugins, xinha_init)) return;
+
+      /** STEP 2 ***************************************************************
+       * Now, what are the names of the textareas you will be turning into
+       * editors?
+       ************************************************************************/
+
+//      xinha_editors = xinha_editors ? xinha_editors :
+//      [
+//        'ctl00_PageContent_txtIntroduction'
+//      ];
+
+      /** STEP 3 ***************************************************************
+       * We create a default configuration to be used by all the editors.
+       * If you wish to configure some of the editors differently this will be
+       * done in step 4.
+       *
+       * If you want to modify the default config you might do something like this.
+       *
+       *   xinha_config = new Xinha.Config();
+       *   xinha_config.width  = 640;
+       *   xinha_config.height = 420;
+       *
+       *************************************************************************/
+
+       xinha_config = xinha_config ? xinha_config : new Xinha.Config();
+       xinha_config.fullPage = true;
+       xinha_config.width = 600;
+       xinha_config.height = 300;
+       xinha_config.CharacterMap.mode = 'panel';
+       xinha_config.toolbar =
+         [
+           ["popupeditor"],
+           ["separator","formatblock","fontname","fontsize"],
+           ["separator","bold","italic","underline","strikethrough"],
+           //["separator","fontname","fontsize","bold","italic","underline","strikethrough"],
+           ["separator","forecolor","hilitecolor","textindicator"],
+           ["separator","subscript","superscript"],
+           ["separator","linebreak","justifyleft","justifycenter","justifyright","justifyfull"],
+           ["separator","insertorderedlist","insertunorderedlist","outdent","indent"],
+           ["separator","inserthorizontalrule","createlink","insertimage","inserttable"],
+           ["separator","linebreak","undo","redo"],
+           ["separator","selectall","print"], (Xinha.is_gecko ? [] : ["cut","copy","paste","overwrite","saveas"]),
+           ["separator","killword","clearfonts","removeformat","toggleborders","splitblock","lefttoright", "righttoleft"],
+           ["separator","htmlmode","showhelp","about"]
+         ];
+/*
+       // We can load an external stylesheet like this - NOTE : YOU MUST GIVE AN ABSOLUTE URL
+      //  otherwise it won't work!
+      xinha_config.stylistLoadStylesheet(document.location.href.replace(/[^\/]*\.html/, 'stylist.css'));
+
+      // Or we can load styles directly
+      xinha_config.stylistLoadStyles('p.red_text { color:red }');
+
+      // If you want to provide "friendly" names you can do so like
+      // (you can do this for stylistLoadStylesheet as well)
+      xinha_config.stylistLoadStyles('p.pink_text { color:pink }', {'p.pink_text' : 'Pretty Pink'});
+*/
+      /** STEP 3 ***************************************************************
+       * We first create editors for the textareas.
+       *
+       * You can do this in two ways, either
+       *
+       *   xinha_editors   = Xinha.makeEditors(xinha_editors, xinha_config, xinha_plugins);
+       *
+       * if you want all the editor objects to use the same set of plugins, OR;
+       *
+       *   xinha_editors = Xinha.makeEditors(xinha_editors, xinha_config);
+       *   xinha_editors['myTextArea'].registerPlugins(['Stylist','FullScreen']);
+       *   xinha_editors['anotherOne'].registerPlugins(['CSS','SuperClean']);
+       *
+       * if you want to use a different set of plugins for one or more of the
+       * editors.
+       ************************************************************************/
+
+      xinha_editors   = Xinha.makeEditors(
+        xinha_editors,
+        //xinha_plugins,
+        xinha_config
+        );
+
+      /** STEP 4 ***************************************************************
+       * If you want to change the configuration variables of any of the
+       * editors,  this is the place to do that, for example you might want to
+       * change the width and height of one of the editors, like this...
+       *
+       *   xinha_editors.myTextArea.config.width  = 640;
+       *   xinha_editors.myTextArea.config.height = 480;
+       *
+       ************************************************************************/
+       
+
+      /** STEP 5 ***************************************************************
+       * Finally we "start" the editors, this turns the textareas into
+       * Xinha editors.
+       ************************************************************************/
+
+      Xinha.startEditors(xinha_editors);
+      window.onload = null;
+    }
+
+    window.onload   = xinha_init;
+    window.onunload = Xinha.collectGarbageForIE;
+  </script> 
+</body>
+</html>

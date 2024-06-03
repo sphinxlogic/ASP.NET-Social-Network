@@ -1,0 +1,23 @@
+
+
+******************************
+   ASP.NET Social Networks
+******************************
+
+Chapter 1 - No Code. 
+Chapter 2 - Code Present
+Chapter 3 - Code Present
+Chapter 4 - Code Present
+Chapter 5 - Code Present
+Chapter 6 - Code Present
+Chapter 7 - Code Present
+Chapter 8 - Code Present
+Chapter 9 - Code Present
+Chapter 10 - Code Present
+Chapter 11 - Code Present
+Chapter 12 - Code Present
+Chapter 13 - Code Present
+
+Appendices A, B and C are available on Packt site for download.
+
+This folder contains files that contain the codes for the respective chapters.

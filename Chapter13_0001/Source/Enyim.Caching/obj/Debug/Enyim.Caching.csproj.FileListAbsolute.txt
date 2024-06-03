@@ -1,0 +1,8 @@
+P:\Projects\Fisharoo\trunk\Source\Enyim.Caching\obj\Debug\ResolveAssemblyReference.cache
+P:\Projects\Fisharoo\trunk\Source\Enyim.Caching\bin\Debug\Enyim.Caching.dll.config
+P:\Projects\Fisharoo\trunk\Source\Enyim.Caching\bin\Debug\Enyim.Caching.dll
+P:\Projects\Fisharoo\trunk\Source\Enyim.Caching\bin\Debug\Enyim.Caching.pdb
+P:\Projects\Fisharoo\trunk\Source\Enyim.Caching\bin\Debug\log4net.dll
+P:\Projects\Fisharoo\trunk\Source\Enyim.Caching\obj\Debug\Enyim.Caching.dll
+P:\Projects\Fisharoo\trunk\Source\Enyim.Caching\obj\Debug\Enyim.Caching.pdb
+P:\Projects\Fisharoo\trunk\Source\Enyim.Caching\bin\Debug\log4net.xml

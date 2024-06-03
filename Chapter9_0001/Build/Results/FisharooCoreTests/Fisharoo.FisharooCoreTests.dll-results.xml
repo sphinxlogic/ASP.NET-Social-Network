@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\debug\Fisharoo.FisharooCoreTests.dll" total="5" failures="0" not-run="0" date="2008-01-26" time="10:01:10">
+  <environment nunit-version="2.2.8.0" clr-version="2.0.50727.1433" os-version="Microsoft Windows NT 6.0.6000.0" platform="Win32NT" cwd="C:\projects\Fisharoo\trunk\Build" machine-name="DEV1" user="asiemer" user-domain="dev1" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\debug\Fisharoo.FisharooCoreTests.dll" success="True" time="4.326" asserts="0">
+    <results>
+      <test-suite name="Fisharoo" success="True" time="4.319" asserts="0">
+        <results>
+          <test-suite name="Fisharoo.FisharooCoreTests" success="True" time="4.305" asserts="0">
+            <results>
+              <test-suite name="Fisharoo.FisharooCoreTests.Core" success="True" time="4.305" asserts="0">
+                <results>
+                  <test-suite name="Fisharoo.FisharooCoreTests.Core.DataAccess" success="True" time="3.784" asserts="0">
+                    <results>
+                      <test-suite name="Fisharoo.FisharooCoreTests.Core.DataAccess.Impl" success="True" time="3.782" asserts="0">
+                        <results>
+                          <test-suite name="Fisharoo.FisharooCoreTests.Core.DataAccess.Impl.AccountRepositoryTester" success="True" time="3.781" asserts="0">
+                            <results>
+                              <test-case name="Fisharoo.FisharooCoreTests.Core.DataAccess.Impl.AccountRepositoryTester.ShouldRetrieveByID" executed="True" success="True" time="0.515" asserts="1" />
+                              <test-case name="Fisharoo.FisharooCoreTests.Core.DataAccess.Impl.AccountRepositoryTester.ShouldSaveAnAccount" executed="True" success="True" time="3.244" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="Fisharoo.FisharooCoreTests.Core.Impl" success="True" time="0.520" asserts="0">
+                    <results>
+                      <test-suite name="Fisharoo.FisharooCoreTests.Core.Impl.CacheTester" success="True" time="0.516" asserts="0">
+                        <results>
+                          <test-case name="Fisharoo.FisharooCoreTests.Core.Impl.CacheTester.ShouldCacheAnObject" executed="True" success="True" time="0.297" asserts="2" />
+                          <test-case name="Fisharoo.FisharooCoreTests.Core.Impl.CacheTester.CacheExpiration" executed="True" success="True" time="0.213" asserts="3" />
+                          <test-case name="Fisharoo.FisharooCoreTests.Core.Impl.CacheTester.CacheFlush" executed="True" success="True" time="0.006" asserts="6" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

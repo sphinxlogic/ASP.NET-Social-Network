@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Fisharoo">
+  <DataContextMoniker Name="/FisharooDataContext" />
+  <nestedChildShapes>
+    <classShape Id="48b17963-376e-4ecf-a263-9684f25fb005" absoluteBounds="1, 1.25, 2, 1.4248478190104168">
+      <DataClassMoniker Name="/FisharooDataContext/Person" />
+      <nestedChildShapes>
+        <elementListCompartment Id="669fc0f4-35f7-4739-9119-316bc13cd2b8" absoluteBounds="1.0150000000000001, 1.71, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,15 @@
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\app.config
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\ConnectionStringToUse.xml
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\StructureMap.config
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisharoo.FisharooCoreTests.dll.config
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisharoo.FisharooCoreTests.dll
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisharoo.FisharooCoreTests.pdb
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisharoo.FisharooCore.dll
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\nunit.framework.dll
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Rhino.Mocks.dll
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisharoo.FisharooCore.pdb
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\nunit.framework.xml
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Rhino.Mocks.xml
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\obj\Debug\Fisharoo.FisharooCoreTests.dll
+C:\projects\Fisharoo\trunk\Source\FisharooCoreTests\obj\Debug\Fisharoo.FisharooCoreTests.pdb

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home"  description="Home page" pageTitle="Welcome to Fisharoo.com!" roles="PUBLIC">
+<!-- TOP NAV NODES -->      
+      <siteMapNode url="/account/default.aspx" title="My Account" description="" pageTitle="" roles="PUBLIC">
+        <siteMapNode url="/account/EditAccount.aspx" title="Edit Account" description="" pageTitle="" roles="PUBLIC" />
+        <siteMapNode url="/account/Login.aspx" title="Login" description="" pageTitle="" roles="PUBLIC" />
+        <siteMapNode url="/account/RecoverPassword.aspx" title="Recover Password" description="Recover Your Password" pageTitle="Recover your password" roles="PUBLIC" />
+        <siteMapNode url="/account/Register.aspx" title="Register" description="" pageTitle="" roles="PUBLIC" />
+        <siteMapNode url="/account/VerifyEmail.aspx" title="Verify Email" description="Verify your email address" pageTitle="Email Verification" roles="PUBLIC" />
+        <siteMapNode url="/account/AccessDenied.aspx" title="Access Denied" description="Access Denied" pageTitle="Access Denied" roles="PUBLIC" />
+      </siteMapNode>
+      <siteMapNode url="/profile/default.aspx" title="Profile" description="" topnav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="/friends/default.aspx" title="Friends" description="" topnav="1" pageTitle="" roles="RESTRICTED"></siteMapNode>
+      <siteMapNode url="/mail/default.aspx" title="Mail" description="" topnav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="/galleries/default.aspx" title="Galleries" description="" topnav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="/groups/default.aspx" title="Groups" description="" topnav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="/virtualtanks/default.aspx" title="Virtual Tanks" description="" topnav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="/forum/default.aspx" title="Forum" description="" topnav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="/blogs/default.aspx" title="Blogs" description="" topnav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+<!-- /TOP NAV NODES -->
+      
+<!-- FOOTER NODES -->
+      <siteMapNode url="AboutUs.aspx" title="About Us" description="About Us" footernav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="Advertisers.aspx" title="Advertisers" description="Click here to learn more about advertising on our site" footernav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="Help.aspx" title="Help" description="Click here to enter our help section" footernav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="Privacy.aspx" title="Privacy" description="Click here to learn about our privacy policy" footernav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="Terms.aspx" title="Terms" description="Click here to learn about our terms and conditions" footernav="1" pageTitle="" roles="PUBLIC"></siteMapNode>
+<!-- /FOOTER NODES-->
+
+<!-- NONE NAVIGATION NODES -->
+      <siteMapNode url="Search.aspx" title="Search" description="Click here to perform a site search" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="Error.aspx" title="Error" description="An error has occured" pageTitle="" roles="PUBLIC"></siteMapNode>
+      <siteMapNode url="PageNotFound.aspx" title="Page Not Found" description="The page you were looking for was not found" pageTitle="Page Not Found" roles="PUBLIC"></siteMapNode>
+<!-- /NONE NAVIGATION NODES -->
+    </siteMapNode>
+</siteMap>

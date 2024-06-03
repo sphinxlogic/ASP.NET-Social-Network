@@ -1,0 +1,496 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:FolderRepository.cs" caret="1251" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:Connection.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/f:IEmailService.cs" caret="232" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/d:Presenter/f:EditAlbumPresenter.cs" caret="1061" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:XMLService.cs" caret="1102" scrollPosition="0|4" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:ContentFilterService.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Log.cs" caret="981" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Cryptography.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:FileRepository.cs" caret="4296" scrollPosition="0|2" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:LuceneDiskCache.cs" caret="751" scrollPosition="0|12" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:MemcachedCache.cs" caret="698" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Configuration.cs" caret="2729" scrollPosition="0|59" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:Web.config" caret="2370" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/f:app.config" caret="2411" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:LuceneSearch.aspx.cs" caret="946" scrollPosition="0|12" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:LuceneSearch.aspx" caret="976" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:LuceneSearchService.cs" caret="4914" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/f:IMessageRepository.cs" caret="632" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:MessageRepository.cs" caret="13" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/f:IEmailRepository.cs" caret="419" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:EmailRepository.cs" caret="438" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:EmailService.cs" caret="344" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Email.cs" caret="5346" scrollPosition="0|0" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:StructureMap.config" caret="463" scrollPosition="0|0" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:app.config" caret="1384" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:StructureMap.config" caret="200" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:MailMessageService.cs" caret="1025" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Extensions.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:DBMailService.cs" caret="1251" scrollPosition="0|30" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="645" scrollPosition="0|34" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:EmailService.cs" caret="453" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Email.cs" caret="7880" scrollPosition="0|157" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:MessageRepository.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:EmailRepository.cs" caret="710" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:MessageRepository.cs" caret="432" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:EmailRepository.cs" caret="1421" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:EmailRepository.cs" caret="235" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/f:IEmailRepository.cs" caret="178" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/f:IMessageRepository.cs" caret="632" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:DBMailService.cs" caret="457" scrollPosition="0|3" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:DBMailService.cs" caret="776" scrollPosition="0|12" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/f:IEmailRepository.cs" caret="419" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:DBMailService.cs" caret="1642" scrollPosition="0|39" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:EmailRepository.cs" caret="438" scrollPosition="0|9" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:DBMailService.cs" caret="2296" scrollPosition="0|31" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:DBMailService.cs" caret="1230" scrollPosition="0|7" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:DBMailService.cs" caret="2099" scrollPosition="0|31" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:MailMessageService.cs" caret="4450" scrollPosition="0|82" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:MailMessageService.cs" caret="959" scrollPosition="0|60" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:MailMessageService.cs" caret="399" scrollPosition="0|9" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:EmailService.cs" caret="680" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:DBMailService.cs" caret="1097" scrollPosition="0|5" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="645" scrollPosition="0|0" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="645" scrollPosition="0|12" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="645" scrollPosition="0|24" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="645" scrollPosition="0|16" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="645" scrollPosition="0|38" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="481" scrollPosition="0|10" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="915" scrollPosition="0|13" />
+      <File id="DDAD0CD0-6E7B-4DB5-917E-EBE329716206/f:Program.cs" caret="341" scrollPosition="0|7" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="FisharooDataContext" priority="5" />
+      <Item value="SystemObjectRatingOptionRepository" priority="0" />
+      <Item value="Connection" priority="5" />
+      <Item value="SystemObjectRatingOption" priority="0" />
+      <Item value="SystemObjectRatingOptionID" priority="4" />
+      <Item value="SystemObjectRatingOptions" priority="6" />
+      <Item value="systemObjectRatingOption" priority="3" />
+      <Item value="SubmitChanges" priority="5" />
+      <Item value="GetContext" priority="23" />
+      <Item value="DeleteOnSubmit" priority="2" />
+      <Item value="List&lt;SystemObjectRatingOption&gt;" priority="0" />
+      <Item value="Where" priority="5" />
+      <Item value="SystemObjectID" priority="29" />
+      <Item value="ToList" priority="13" />
+      <Item value="Pluggable" priority="0" />
+      <Item value="Exception" priority="1" />
+      <Item value="HttpCookie" priority="0" />
+      <Item value="StreamWriter" priority="0" />
+      <Item value="WriteLine" priority="5" />
+      <Item value="Close" priority="1" />
+      <Item value="Visible" priority="12" />
+      <Item value="repRatingOptions" priority="0" />
+      <Item value="Items" priority="2" />
+      <Item value="ItemType" priority="7" />
+      <Item value="AlternatingItem" priority="3" />
+      <Item value="Item" priority="21" />
+      <Item value="FindControl" priority="13" />
+      <Item value="CurrentRating" priority="0" />
+      <Item value="ToString" priority="19" />
+      <Item value="RatingEventArgs" priority="0" />
+      <Item value="Value" priority="8" />
+      <Item value="Rating" priority="2" />
+      <Item value="Tag" priority="6" />
+      <Item value="ModalPopupExtender1" priority="0" />
+      <Item value="Hide" priority="0" />
+      <Item value="CallbackResult" priority="0" />
+      <Item value="Text" priority="20" />
+      <Item value="ID" priority="0" />
+      <Item value="litSelectedRatings" priority="0" />
+      <Item value="DataItem" priority="17" />
+      <Item value="Add" priority="24" />
+      <Item value="TrimEnd" priority="0" />
+      <Item value="Substring" priority="2" />
+      <Item value="Length" priority="3" />
+      <Item value="Current" priority="0" />
+      <Item value="Request" priority="1" />
+      <Item value="Dictionar&lt;int, int&gt;" priority="0" />
+      <Item value="Dictionary&lt;int,int&gt;" priority="1" />
+      <Item value="Key" priority="5" />
+      <Item value="ContainsKey" priority="0" />
+      <Item value="rating_Changed" priority="0" />
+      <Item value="GetInstance" priority="24" />
+      <Item value="btnCancel" priority="0" />
+      <Item value="ClientID" priority="1" />
+      <Item value="lbRateThis" priority="1" />
+      <Item value="Rating1" priority="0" />
+      <Item value="pnlRating" priority="1" />
+      <Item value="CurrentUser" priority="20" />
+      <Item value="ShowRating" priority="1" />
+      <Item value="btnSave_Click" priority="0" />
+      <Item value="SelectedRatings" priority="2" />
+      <Item value="ClearSelectedRatings" priority="0" />
+      <Item value="Ratings" priority="4" />
+      <Item value="List&lt;Rating&gt;" priority="0" />
+      <Item value="FisharooCore" priority="4" />
+      <Item value="Core" priority="6" />
+      <Item value="IProfileService" priority="0" />
+      <Item value="Domain" priority="4" />
+      <Item value="CreatedByAccountID" priority="6" />
+      <Item value="AccountID" priority="19" />
+      <Item value="CreatedByUsername" priority="1" />
+      <Item value="Username" priority="4" />
+      <Item value="CreateDate" priority="12" />
+      <Item value="Now" priority="7" />
+      <Item value="Score" priority="1" />
+      <Item value="SystemObjectRecordID" priority="37" />
+      <Item value="SaveRatings" priority="0" />
+      <Item value="Contains" priority="5" />
+      <Item value="SetCurrentRating" priority="0" />
+      <Item value="Select" priority="6" />
+      <Item value="GetCurrentRating" priority="0" />
+      <Item value="_view" priority="0" />
+      <Item value="Average" priority="0" />
+      <Item value="ToInt32" priority="8" />
+      <Item value="pnlModalPopup" priority="0" />
+      <Item value="Count" priority="15" />
+      <Item value="HasRatedBefore" priority="0" />
+      <Item value="CanSetRating" priority="0" />
+      <Item value="TagsPresenter" priority="0" />
+      <Item value="pnlTagCloud" priority="0" />
+      <Item value="pnlTag" priority="0" />
+      <Item value="Init" priority="5" />
+      <Item value="btnTag_Click" priority="0" />
+      <Item value="SaveTag" priority="1" />
+      <Item value="Name" priority="6" />
+      <Item value="GetTagByName" priority="2" />
+      <Item value="AddTag" priority="0" />
+      <Item value="SaveSystemObjectTag" priority="0" />
+      <Item value="SystemObjectTag" priority="1" />
+      <Item value="sysObjTag" priority="3" />
+      <Item value="TagID" priority="9" />
+      <Item value="Tags" priority="2" />
+      <Item value="InsertOnSubmit" priority="2" />
+      <Item value="SystemObjectTags" priority="1" />
+      <Item value="ShowTagBox" priority="6" />
+      <Item value="Display" priority="6" />
+      <Item value="ShowCloud" priority="2" />
+      <Item value="ShowTagCloud" priority="4" />
+      <Item value="ShowCloudAndTagBox" priority="2" />
+      <Item value="phTagCloud" priority="1" />
+      <Item value="Controls" priority="14" />
+      <Item value="HyperLink" priority="0" />
+      <Item value="NavigateUrl" priority="0" />
+      <Item value="_tagRepository" priority="1" />
+      <Item value="GetTagsBySystemObject" priority="1" />
+      <Item value="Clear" priority="3" />
+      <Item value="ShowParentCloud" priority="0" />
+      <Item value="BuildParentTagCloud" priority="0" />
+      <Item value="OrderByDescending" priority="1" />
+      <Item value="Take" priority="3" />
+      <Item value="GetTagsGlobal" priority="0" />
+      <Item value="ShowGlobalCloud" priority="0" />
+      <Item value="PhysicalPath" priority="1" />
+      <Item value="ToLowerInvariant" priority="2" />
+      <Item value="Split" priority="0" />
+      <Item value="Replace" priority="2" />
+      <Item value="QueryString" priority="0" />
+      <Item value="RepeaterItemEventArgs" priority="1" />
+      <Item value="List&lt;SystemObjectTag&gt;" priority="1" />
+      <Item value="List&lt;Account&gt;" priority="0" />
+      <Item value="List&lt;Profile&gt;" priority="1" />
+      <Item value="List&lt;Blog&gt;" priority="1" />
+      <Item value="List&lt;BoardPost&gt;" priority="0" />
+      <Item value="List&lt;File&gt;" priority="0" />
+      <Item value="List&lt;Group&gt;" priority="0" />
+      <Item value="Accounts" priority="0" />
+      <Item value="ProfileID" priority="2" />
+      <Item value="PostID" priority="0" />
+      <Item value="SystemObjectTagWithObject" priority="1" />
+      <Item value="FirstOrDefault" priority="5" />
+      <Item value="GroupID" priority="0" />
+      <Item value="LoadUI" priority="0" />
+      <Item value="GetSystemObjectsByTagID" priority="0" />
+      <Item value="repFiles" priority="0" />
+      <Item value="DataSource" priority="1" />
+      <Item value="DataBind" priority="1" />
+      <Item value="File" priority="2" />
+      <Item value="FileName" priority="2" />
+      <Item value="Account" priority="1" />
+      <Item value="Title" priority="4" />
+      <Item value="SetTitle" priority="0" />
+      <Item value="GetTagByID" priority="0" />
+      <Item value="Folders" priority="0" />
+      <Item value="DefaultFolderID" priority="1" />
+      <Item value="FolderID" priority="1" />
+      <Item value="List&lt;Folder&gt;" priority="0" />
+      <Item value="Year" priority="1" />
+      <Item value="Month" priority="1" />
+      <Item value="FileSystemName" priority="0" />
+      <Item value="Extension" priority="1" />
+      <Item value="Container" priority="0" />
+      <Item value="BindingContainer" priority="2" />
+      <Item value="FileID" priority="2" />
+      <Item value="usercontrols_tags_ascx" priority="1" />
+      <Item value="FisharooWeb" priority="2" />
+      <Item value="UserControls" priority="2" />
+      <Item value="ToInt64" priority="2" />
+      <Item value="Dictionary&lt;int,string&gt;" priority="0" />
+      <Item value="List&lt;FileType&gt;" priority="0" />
+      <Item value="FileTypes" priority="0" />
+      <Item value="FileTypeID" priority="1" />
+      <Item value="CommentsPresenter" priority="0" />
+      <Item value="AddComment" priority="0" />
+      <Item value="Comment" priority="0" />
+      <Item value="Body" priority="3" />
+      <Item value="CommentByAccountID" priority="0" />
+      <Item value="CommentByUsername" priority="1" />
+      <Item value="SaveComment" priority="0" />
+      <Item value="ShowCommentBox" priority="1" />
+      <Item value="phComments" priority="1" />
+      <Item value="LiteralControl" priority="0" />
+      <Item value="ToShortDateString" priority="1" />
+      <Item value="LoadComments" priority="1" />
+      <Item value="_commentsRepository" priority="0" />
+      <Item value="GetCommentsBySystemObject" priority="0" />
+      <Item value="ClearComments" priority="0" />
+      <Item value="NumberOfTagsInCloud" priority="2" />
+      <Item value="OrderBy" priority="4" />
+      <Item value="MinimumOffset" priority="1" />
+      <Item value="Ranged" priority="2" />
+      <Item value="PreCalculatedValue" priority="1" />
+      <Item value="FinalCalculatedValue" priority="4" />
+      <Item value="Sort" priority="0" />
+      <Item value="IComparable" priority="0" />
+      <Item value="CompareTo" priority="0" />
+      <Item value="FontSize" priority="0" />
+      <Item value="InitialValue" priority="1" />
+      <Item value="Attributes" priority="0" />
+      <Item value="CloudSortOrder" priority="2" />
+      <Item value="Ascending" priority="1" />
+      <Item value="Descending" priority="1" />
+      <Item value="Random" priority="0" />
+      <Item value="Reverse" priority="0" />
+      <Item value="_tagService" priority="0" />
+      <Item value="SortOrder" priority="1" />
+      <Item value="AddToTagCloudFontSize" priority="1" />
+      <Item value="TagCloudLargestBaseFontSize" priority="0" />
+      <Item value="Distinct" priority="3" />
+      <Item value="moderation" priority="0" />
+      <Item value="ModerationID" priority="0" />
+      <Item value="Moderations" priority="13" />
+      <Item value="Attach" priority="2" />
+      <Item value="List&lt;Moderation&gt;" priority="1" />
+      <Item value="group" priority="1" />
+      <Item value="Skip" priority="0" />
+      <Item value="NumberOfRecordsInPage" priority="1" />
+      <Item value="NumberOfReports" priority="1" />
+      <Item value="GagID" priority="0" />
+      <Item value="Gags" priority="7" />
+      <Item value="List&lt;Gag&gt;" priority="0" />
+      <Item value="GagUntilDate" priority="2" />
+      <Item value="ModerationPresenter" priority="0" />
+      <Item value="SaveModeration" priority="1" />
+      <Item value="Moderation" priority="0" />
+      <Item value="AccountUsername" priority="4" />
+      <Item value="ShowFlagThis" priority="3" />
+      <Item value="HasFlaggedThisAlready" priority="0" />
+      <Item value="DefaultPresenter" priority="0" />
+      <Item value="LoadData" priority="0" />
+      <Item value="GetModerationsGlobal" priority="0" />
+      <Item value="g" priority="7" />
+      <Item value="DBNull" priority="2" />
+      <Item value="IsNullOrEmpty" priority="2" />
+      <Item value="IsDenied" priority="3" />
+      <Item value="IsApproved" priority="7" />
+      <Item value="Image" priority="0" />
+      <Item value="WebSiteURL" priority="1" />
+      <Item value="GetFileByID" priority="0" />
+      <Item value="GetFullFilePathByFileID" priority="0" />
+      <Item value="S" priority="0" />
+      <Item value="ImageUrl" priority="0" />
+      <Item value="Dictionary&lt;long,bool&gt;" priority="0" />
+      <Item value="repModeration" priority="1" />
+      <Item value="ActionByAccountID" priority="0" />
+      <Item value="ActionByUsername" priority="0" />
+      <Item value="AttachAll" priority="0" />
+      <Item value="SaveModerationResults" priority="1" />
+      <Item value="List&lt;ModerationResult&gt;" priority="0" />
+      <Item value="ModerationResult" priority="0" />
+      <Item value="litSystemObjectID" priority="0" />
+      <Item value="litSystemObjectRecordID" priority="0" />
+      <Item value="Checked" priority="3" />
+      <Item value="ClearData" priority="0" />
+      <Item value="Gag" priority="0" />
+      <Item value="Reason" priority="0" />
+      <Item value="SaveGag" priority="0" />
+      <Item value="chkDeny" priority="0" />
+      <Item value="chkApprove" priority="0" />
+      <Item value="Parse" priority="2" />
+      <Item value="GagUserUntil" priority="0" />
+      <Item value="litAccountID" priority="0" />
+      <Item value="txtGagDate" priority="0" />
+      <Item value="txtReason" priority="0" />
+      <Item value="GaggedByAccountID" priority="0" />
+      <Item value="_webContext" priority="0" />
+      <Item value="List&lt;ContentFilter&gt;" priority="0" />
+      <Item value="Fisharoo.FisharooCore" priority="0" />
+      <Item value="_contentFilterRepository" priority="0" />
+      <Item value="GetType" priority="0" />
+      <Item value="GetContentFilters" priority="0" />
+      <Item value="StringBuilder" priority="1" />
+      <Item value="Impl" priority="0" />
+      <Item value="HtmlEncode" priority="0" />
+      <Item value="IsFlagged" priority="1" />
+      <Item value="DefaultCacheDuration_Days" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="List&lt;SearchResult&gt;" priority="1" />
+      <Item value="CurrentDomain" priority="0" />
+      <Item value="BaseDirectory" priority="0" />
+      <Item value="Profiles" priority="0" />
+      <Item value="GetProfilesForIndexing" priority="0" />
+      <Item value="IndexWriter" priority="0" />
+      <Item value="Document" priority="0" />
+      <Item value="Field" priority="1" />
+      <Item value="Store" priority="2" />
+      <Item value="YES" priority="3" />
+      <Item value="Index" priority="1" />
+      <Item value="TOKENIZED" priority="1" />
+      <Item value="TermVector" priority="1" />
+      <Item value="Signature" priority="1" />
+      <Item value="ProfileName" priority="3" />
+      <Item value="IMAOL" priority="0" />
+      <Item value="IMGIM" priority="0" />
+      <Item value="IMICQ" priority="0" />
+      <Item value="IMMSN" priority="0" />
+      <Item value="IMSkype" priority="0" />
+      <Item value="IMYIM" priority="0" />
+      <Item value="AddDocument" priority="0" />
+      <Item value="Optimize" priority="0" />
+      <Item value="Error" priority="0" />
+      <Item value="Message" priority="1" />
+      <Item value="RecordAdded" priority="0" />
+      <Item value="EventArgs" priority="1" />
+      <Item value="RecordAddedEvent" priority="1" />
+      <Item value="Sleep" priority="0" />
+      <Item value="phResults" priority="1" />
+      <Item value="_luceneSearchService" priority="1" />
+      <Item value="BuildIndexes" priority="0" />
+      <Item value="Open" priority="0" />
+      <Item value="PhraseQuery" priority="0" />
+      <Item value="Term" priority="3" />
+      <Item value="IndexSearcher" priority="0" />
+      <Item value="SetSimilarity" priority="0" />
+      <Item value="SearchResult" priority="0" />
+      <Item value="Doc" priority="0" />
+      <Item value="GetField" priority="5" />
+      <Item value="StringValue" priority="5" />
+      <Item value="DisplayText" priority="1" />
+      <Item value="Description" priority="1" />
+      <Item value="Order" priority="0" />
+      <Item value="Get" priority="1" />
+      <Item value="URL" priority="0" />
+      <Item value="Search" priority="1" />
+      <Item value="Net" priority="1" />
+      <Item value="Lucene" priority="0" />
+      <Item value="QueryParsers" priority="0" />
+      <Item value="NO_NORMS" priority="0" />
+      <Item value="NO" priority="1" />
+      <Item value="WildcardQuery" priority="1" />
+      <Item value="ToLower" priority="0" />
+      <Item value="Hits" priority="0" />
+      <Item value="MultiPhraseQuery" priority="1" />
+      <Item value="BooleanQuery" priority="1" />
+      <Item value="Blogs" priority="0" />
+      <Item value="BlogID" priority="1" />
+      <Item value="Subject" priority="6" />
+      <Item value="PageName" priority="0" />
+      <Item value="Post" priority="0" />
+      <Item value="QueryParser" priority="0" />
+      <Item value="StandardAnalyzer" priority="0" />
+      <Item value="GetNextToken" priority="0" />
+      <Item value="Content" priority="0" />
+      <Item value="Exists" priority="0" />
+      <Item value="Set" priority="0" />
+      <Item value="TO_EMAIL_ADDRESS" priority="0" />
+      <Item value="ToEmailAddress" priority="0" />
+      <Item value="FROM_EMAIL_ADDRESS" priority="0" />
+      <Item value="FromEmailAddress" priority="0" />
+      <Item value="MailQueue_Working" priority="0" />
+      <Item value="SerializedMailMessage" priority="4" />
+      <Item value="Serialize" priority="3" />
+      <Item value="SendDate" priority="1" />
+      <Item value="ToDateTime" priority="0" />
+      <Item value="MailQueue_Receivings" priority="1" />
+      <Item value="pr_MailQueue_SwapReceivingAndWorking_GetWorking" priority="1" />
+      <Item value="pr_MailQueue_SwapReceivingAndWorking_GetWorkingResult" priority="0" />
+      <Item value="List&lt;pr_MailQueue_SwapReceivingAndWorking_GetWorkingResult&gt;" priority="1" />
+      <Item value="Deserialize" priority="4" />
+      <Item value="pr_MailQueue_MoveWorkingToHistory" priority="1" />
+      <Item value="Fatal" priority="0" />
+      <Item value="Headers" priority="3" />
+      <Item value="MailMessage" priority="3" />
+      <Item value="MailAddress" priority="9" />
+      <Item value="MyMailMessage" priority="1" />
+      <Item value="AlternateViews" priority="11" />
+      <Item value="Attachments" priority="1" />
+      <Item value="BCC" priority="0" />
+      <Item value="Bcc" priority="2" />
+      <Item value="List&lt;MailAddress&gt;" priority="0" />
+      <Item value="Address" priority="5" />
+      <Item value="DisplayName" priority="2" />
+      <Item value="Host" priority="3" />
+      <Item value="User" priority="3" />
+      <Item value="BodyEncoding" priority="1" />
+      <Item value="Cc" priority="1" />
+      <Item value="DeliveryNotificationOptions" priority="1" />
+      <Item value="From" priority="3" />
+      <Item value="IsBodyHtml" priority="1" />
+      <Item value="Priority" priority="1" />
+      <Item value="ReplyTo" priority="1" />
+      <Item value="Sender" priority="1" />
+      <Item value="SubjectEncoding" priority="1" />
+      <Item value="To" priority="6" />
+      <Item value="MailAddressCollection" priority="0" />
+      <Item value="MyMailAddress" priority="2" />
+      <Item value="ConvertMyMailAddressesToMailAddresses" priority="0" />
+      <Item value="AlternateView" priority="0" />
+      <Item value="ContentType" priority="0" />
+      <Item value="Encrypt" priority="0" />
+      <Item value="Decrypt" priority="0" />
+      <Item value="SerializedAndEncryptedMyMailMessage" priority="0" />
+      <Item value="SerializeEncrypted" priority="1" />
+      <Item value="DeserializeEncrypted" priority="1" />
+      <Item value="SerializedAndEncryptedMailMessage" priority="0" />
+      <Item value="GetMailQueueToProcess" priority="1" />
+      <Item value="InjectStub" priority="0" />
+      <Item value="Send" priority="0" />
+      <Item value="MoveMailQueueWorkingToHistory" priority="1" />
+      <Item value="Format" priority="0" />
+      <Item value="Save" priority="0" />
+      <Item value="_emailRepository" priority="0" />
+      <Item value="ProcessEmails" priority="1" />
+      <Item value="SetDefaultInstanceName" priority="0" />
+      <Item value="ResetDefaults" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

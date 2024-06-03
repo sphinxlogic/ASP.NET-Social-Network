@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home"  description="Home page" pageTitle="Welcome to Fisharoo.com!" roles="PUBLIC">
+<!-- TOP NAV NODES -->      
+      <siteMapNode url="~/accounts/default.aspx" title="My Account" description="" pageTitle="" roles="REGISTERED" visible="1">
+        <siteMapNode url="~/accounts/EditAccount.aspx" title="Edit Account" description="" pageTitle="Edit Account" roles="REGISTERED" visible="1" />
+        <siteMapNode url="~/accounts/Login.aspx" title="Login" description="" pageTitle="Login" roles="PUBLIC" rootSecondaryNav="1" visible="1" />
+        <siteMapNode url="~/accounts/RecoverPassword.aspx" title="Recover Password" description="Recover Your Password" pageTitle="Recover your password" roles="PUBLIC" visible="1" />
+        <siteMapNode url="~/accounts/Register.aspx" title="Register" description="" pageTitle="Register" roles="PUBLIC" rootSecondaryNav="1" visible="1" />
+        <siteMapNode url="~/accounts/VerifyEmail.aspx" title="Verify Email" description="Verify your email address" pageTitle="Email Verification" roles="PUBLIC" visible="0" />
+        <siteMapNode url="~/accounts/AccessDenied.aspx" title="Access Denied" description="Access Denied" pageTitle="Access Denied" roles="PUBLIC" visible="0" />
+      </siteMapNode>
+      
+      <siteMapNode url="~/profiles/default.aspx" title="Profile" description="" topnav="1" pageTitle="" roles="REGISTERED" visible="1">
+        <siteMapNode url="~/profiles/Profile.aspx" title="My Public Profile" description="" roles="PUBLIC" pageTitle="My Public Profile" visible="1" />
+        <siteMapNode url="~/profiles/ManageProfile.aspx" title="Manage Profile" description="" roles="REGISTERED" pageTitle="Manage My Profile" visible="1" />
+        <siteMapNode url="~/profiles/ManagePrivacy.aspx" title="Manage Privacy" description="" roles="REGISTERED" pageTitle="Manage Privacy Settings" visible="1" />
+        <siteMapNode url="~/profiles/UploadAvatar.aspx" title="Upload Avatar" description="" roles="REGISTERED" pageTitle="Upload Avatar" visible="1" />
+        <siteMapNode url="~/profiles/StatusUpdates.aspx" title="Status Updates" description="" roles="REGISTERED" pageTitle="Status Updates" visible="1" />
+      </siteMapNode>
+      
+      <siteMapNode url="~/friends/default.aspx" title="Friends" description="" topnav="1" pageTitle="" roles="REGISTERED" visible="1">
+        <siteMapNode url="~/friends/InviteFriends.aspx" title="Invite Your Friends" description="" roles="REGISTERED" pageTitle="Invite Your Friends" visible="1" />
+        <siteMapNode url="~/friends/FindFriends.aspx" title="Find Your Friends" description="" roles="REGISTERED" pageTitle="Find Your Friends" visible="1" />
+        <siteMapNode url="~/friends/ConfirmFriendshipRequest.aspx" title="Friendship Request" description="" roles="PUBLIC" pageTitle="Friendship Request" visible="0" />
+        <siteMapNode url="~/friends/OutlookCsvImporter.aspx" title="Import Outlook Contacts" description="" roles="REGISTERED" pageTitle="Import Outlook Contacts" visible="1" />
+      </siteMapNode>
+      
+      <siteMapNode url="~/mail/default.aspx" title="Mail" pageTitle="Inbox" description="" topnav="1" roles="REGISTERED" visible="1">
+        <siteMapNode url="~/mail/default.aspx?folder=1" title="Inbox" description="" roles="REGISTERED" pageTitle="Inbox" visible="1" />
+        <siteMapNode url="~/mail/newmessage.aspx" title="New" description="" roles="REGISTERED" pageTitle="New" visible="1" />
+        <siteMapNode url="~/mail/readmessage.aspx" title="Read" description="" roles="REGISTERED" pageTitle="Read Message" visible="0" />
+      </siteMapNode>
+
+      <siteMapNode url="~/blogs/default.aspx" title="Blogs" pageTitle="Blogs" description="" topnav="1" roles="REGISTERED" visible="1">
+        <siteMapNode url="~/blogs/post.aspx" title="Post" description="" roles="REGISTERED" pageTitle="Post" visible="1" />
+        <siteMapNode url="~/blogs/myposts.aspx" title="My Posts" description="" roles="REGISTERED" pageTitle="My Posts" visible="1" />
+        <siteMapNode url="~/blogs/viewpost.aspx" title="View Post" description="" roles="REGISTERED" pageTitle="View Post" visible="0" />
+      </siteMapNode>
+      
+      <siteMapNode url="~/photos/default.aspx" title="Photos" description="" topnav="1" pageTitle="" roles="REGISTERED" visible="1">
+        <siteMapNode url="~/photos/MyPhotos.aspx" title="My Photos" description="" pageTitle="My Photos" roles="REGISTERED" visible="1" />
+        <siteMapNode url="~/photos/EditAlbum.aspx" title="New Album" description="" pageTitle="Photo Album" roles="REGISTERED" visible="1" />
+        <siteMapNode url="~/photos/AddPhotos.aspx" title="Add Photos" description="" pageTitle="Add Photos" roles="REGISTERED" visible="0" />
+        <siteMapNode url="~/photos/EditPhotos.aspx" title="Photos" description="" pageTitle="Photos" roles="REGISTERED" visible="0" />
+        <siteMapNode url="~/photos/ViewAlbum.aspx" title="View Album" description="" pageTitle="View Album" roles="REGISTERED" visible="0" />
+        <siteMapNode url="~/photos/ViewLargeAlbum.aspx" title="View Album" description="" pageTitle="View Album" roles="REGISTERED" visible="0" />
+        <siteMapNode url="~/photos/ViewPhoto.aspx" title="View Photo" description="" pageTitle="View Photo" roles="REGISTERED" visible="0" />
+      </siteMapNode>
+      
+      <siteMapNode url="~/groups/default.aspx" title="Groups" description="" topnav="1" pageTitle="" roles="PUBLIC" visible="1">
+        <siteMapNode url="~/groups/managegroup.aspx" title="Manage Group" description="" pageTitle="Manage Group" roles="REGISTERED" visible="0" />
+        <siteMapNode url="~/groups/managegroup.aspx?newgroup=1" title="New Group" description="" pageTitle="Manage Group" roles="REGISTERED" visible="1" />
+        <siteMapNode url="~/groups/mygroups.aspx" title="My Groups" description="" pageTitle="My Groups" roles="REGISTERED" visible="1" />
+        <siteMapNode url="~/groups/viewgroup.aspx" title="View Group" description="" pageTitle="View Group" roles="PUBLIC" visible="0" />
+        <siteMapNode url="~/groups/members.aspx" title="Members" description="" pageTitle="Members" roles="PUBLIC" visible="0" />
+      </siteMapNode>
+      
+      <siteMapNode url="~/virtualtanks/default.aspx" title="Virtual Tanks" description="" topnav="1" pageTitle="" roles="PUBLIC" visible="1"></siteMapNode>
+      
+      <siteMapNode url="~/forums/default.aspx" title="Forum" description="" topnav="1" pageTitle="" roles="PUBLIC" visible="1">
+        <siteMapNode url="~/forums/Post.aspx" title="Post" description="" topnav="0" pageTitle="Post" visible="0" roles="REGISTERED" />
+        <siteMapNode url="~/forums/ViewForum.aspx" title="View Forum" description="" topnav="0" pageTitle="View Forum" visible="0" roles="PUBLIC" />
+        <siteMapNode url="~/forums/ViewPost.aspx" title="View Post" description="" topnav="0" pageTitle="View Post" visible="0" roles="PUBLIC" />
+      </siteMapNode>
+
+      <siteMapNode url="~/tags/tags.aspx" title="Tags" description="" topnav="0" pageTitle="" roles="PUBLIC" visible="0"></siteMapNode>
+<!-- /TOP NAV NODES -->
+      
+<!-- FOOTER NODES -->
+      <siteMapNode url="AboutUs.aspx" title="About Us" description="About Us" footernav="1" pageTitle="" roles="PUBLIC" visible="1"></siteMapNode>
+      <siteMapNode url="Advertisers.aspx" title="Advertisers" description="Click here to learn more about advertising on our site" footernav="1" pageTitle="" roles="PUBLIC" visible="1"></siteMapNode>
+      <siteMapNode url="Help.aspx" title="Help" description="Click here to enter our help section" footernav="1" pageTitle="" roles="PUBLIC" rootSecondaryNav="1" visible="1"></siteMapNode>
+      <siteMapNode url="Privacy.aspx" title="Privacy" description="Click here to learn about our privacy policy" footernav="1" pageTitle="" roles="PUBLIC" visible="1"></siteMapNode>
+      <siteMapNode url="Terms.aspx" title="Terms" description="Click here to learn about our terms and conditions" footernav="1" pageTitle="" roles="PUBLIC" visible="1"></siteMapNode>
+<!-- /FOOTER NODES-->
+
+<!-- NONE NAVIGATION NODES -->
+      <siteMapNode url="Search.aspx" title="Search" description="Click here to perform a site search" pageTitle="" roles="PUBLIC" rootSecondaryNav="1" visible="1"></siteMapNode>
+      <siteMapNode url="Error.aspx" title="Error" description="An error has occured" pageTitle="" roles="PUBLIC" visible="1"></siteMapNode>
+      <siteMapNode url="PageNotFound.aspx" title="Page Not Found" description="The page you were looking for was not found" pageTitle="Page Not Found" roles="PUBLIC" visible="1"></siteMapNode>
+<!-- /NONE NAVIGATION NODES -->
+    </siteMapNode>
+</siteMap>

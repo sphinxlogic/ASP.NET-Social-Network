@@ -1,0 +1,16 @@
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\Fisharoo.BuildTasks.dll
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\Fisharoo.BuildTasks.pdb
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\NAnt.Core.dll
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\log4net.dll
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\NAnt.Core.xml
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\Fisharoo.BuildTasks.dll
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\Fisharoo.BuildTasks.pdb
+P:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\Fisharoo.BuildTasks.dll
+P:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\Fisharoo.BuildTasks.pdb
+P:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\NAnt.Core.dll
+P:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\log4net.dll
+P:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\NAnt.Core.xml
+P:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\ResolveAssemblyReference.cache
+P:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\Fisharoo.BuildTasks.dll
+P:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\Fisharoo.BuildTasks.pdb

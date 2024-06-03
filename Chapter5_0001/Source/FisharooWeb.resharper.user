@@ -1,0 +1,1119 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Web" priority="2" />
+      <Item value="Data" priority="11" />
+      <Item value="Linq" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisahroo.FisharooCore.Properties.Settings">
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext.Current">
+      <Item value="Response" priority="1" />
+      <Item value="Server" priority="4" />
+      <Item value="Session" priority="3" />
+      <Item value="Request" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect" priority="8" />
+      <Item value="Write" priority="4" />
+      <Item value="OutputStream" priority="0" />
+      <Item value="BinaryWrite" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web">
+      <Item value="UI" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI">
+      <Item value="Page" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailMessage">
+      <Item value="CC" priority="4" />
+      <Item value="Bcc" priority="3" />
+      <Item value="Subject" priority="7" />
+      <Item value="Body" priority="5" />
+      <Item value="BodyEncoding" priority="0" />
+      <Item value="IsBodyHtml" priority="4" />
+      <Item value="To" priority="2" />
+      <Item value="From" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text">
+      <Item value="Encoding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.SmtpClient">
+      <Item value="Send" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailAddressCollection">
+      <Item value="Add" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data">
+      <Item value="Sql" priority="0" />
+      <Item value="Linq" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="5" />
+      <Item value="AppSettings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ToString" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore">
+      <Item value="Core" priority="9" />
+      <Item value="Properties" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core">
+      <Item value="DataAccess" priority="0" />
+      <Item value="Impl" priority="1" />
+      <Item value="Domain" priority="14" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.DataAccess">
+      <Item value="Impl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.DataAccess.Impl">
+      <Item value="Connection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;string&gt;">
+      <Item value="Add" priority="3" />
+      <Item value="Contains" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo">
+      <Item value="FisharooCore" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.FisharooDataContext">
+      <Item value="Persons" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Person">
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net">
+      <Item value="Appender" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IRedirector">
+      <Item value="GoToHomePage" priority="4" />
+      <Item value="GoToLoginPage" priority="0" />
+      <Item value="GoToRegisterPage" priority="0" />
+      <Item value="GoToAccountLoginPage" priority="9" />
+      <Item value="GoToAccountEditAccountPage" priority="0" />
+      <Item value="GoToAccountRegisterPage" priority="1" />
+      <Item value="GoToAccountRecoverPasswordPage" priority="0" />
+      <Item value="GoToAccountAccessDenied" priority="1" />
+      <Item value="GoToErrorPage" priority="0" />
+      <Item value="GoToProfileDefault" priority="0" />
+      <Item value="GoToProfileManageProfile" priority="0" />
+      <Item value="GoToProfilesProfile" priority="1" />
+      <Item value="GoToSearch" priority="0" />
+      <Item value="GoToFriendsInviteFriends" priority="0" />
+      <Item value="GoToProfilesStatusUpdates" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.EventArgs">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
+      <Item value="DataSource" priority="6" />
+      <Item value="DataBind" priority="12" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.SiteMap.RootNode">
+      <Item value="GetAllNodes" priority="2" />
+      <Item value="ChildNodes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;System.Web.SiteMapNode&gt;">
+      <Item value="Add" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemEventArgs">
+      <Item value="Item" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItem">
+      <Item value="ItemType" priority="9" />
+      <Item value="FindControl" priority="6" />
+      <Item value="DataItem" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HyperLink">
+      <Item value="CssClass" priority="0" />
+      <Item value="NavigateUrl" priority="3" />
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.SiteMap.CurrentNode">
+      <Item value="Url" priority="0" />
+      <Item value="ParentNode" priority="1" />
+      <Item value="Title" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.SiteMapNode">
+      <Item value="Url" priority="2" />
+      <Item value="Title" priority="1" />
+      <Item value="ParentNode" priority="8" />
+      <Item value="Roles" priority="1" />
+      <Item value="ChildNodes" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="54" />
+      <Item value="ID" priority="4" />
+      <Item value="Visible" priority="2" />
+      <Item value="Attributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Browser" priority="4" />
+      <Item value="Params" priority="0" />
+      <Item value="Path" priority="1" />
+      <Item value="PhysicalPath" priority="1" />
+      <Item value="QueryString" priority="2" />
+      <Item value="ServerVariables" priority="0" />
+      <Item value="RawUrl" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="PhysicalApplicationPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpBrowserCapabilities">
+      <Item value="Browser" priority="3" />
+      <Item value="Version" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="ToString" priority="8" />
+      <Item value="ToLower" priority="1" />
+      <Item value="ToUpper" priority="0" />
+      <Item value="Split" priority="0" />
+      <Item value="Contains" priority="3" />
+      <Item value="IndexOf" priority="0" />
+      <Item value="Remove" priority="0" />
+      <Item value="Replace" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="Substring" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NAnt">
+      <Item value="Core" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NAnt.Core">
+      <Item value="Attributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="GetFiles" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="Name" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="StartInfo" priority="4" />
+      <Item value="WaitForExit" priority="1" />
+      <Item value="StandardOutput" priority="2" />
+      <Item value="Close" priority="0" />
+      <Item value="ExitCode" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.ProcessStartInfo">
+      <Item value="CreateNoWindow" priority="0" />
+      <Item value="RedirectStandardError" priority="0" />
+      <Item value="RedirectStandardOutput" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="38" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="Title" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.ICaptcha">
+      <Item value="Height" priority="2" />
+      <Item value="Width" priority="2" />
+      <Item value="Image" priority="0" />
+      <Item value="Text" priority="2" />
+      <Item value="FamilyName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.SessionState.HttpSessionState">
+      <Item value="Add" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Save" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing">
+      <Item value="Imaging" priority="1" />
+      <Item value="Color" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging">
+      <Item value="ImageFormat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Jpeg" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="20" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.Impl.FisharooDataContext">
+      <Item value="Accounts" priority="6" />
+      <Item value="SubmitChanges" priority="1" />
+      <Item value="AccountPermissions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.DataAccess.Impl.Account&gt;">
+      <Item value="Attach" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.Impl.Account">
+      <Item value="AccountID" priority="0" />
+      <Item value="Permissions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Impl.ListSelector&lt;Fisharoo.FisharooCore.Core.DataAccess.Impl.AccountPermission,Fisharoo.FisharooCore.Core.DataAccess.Impl.Permission&gt;">
+      <Item value="Contains" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.Impl.Permission">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.FisharooDataContext">
+      <Item value="Accounts" priority="16" />
+      <Item value="SubmitChanges" priority="24" />
+      <Item value="Terms" priority="2" />
+      <Item value="Permissions" priority="2" />
+      <Item value="AccountPermissions" priority="0" />
+      <Item value="Profiles" priority="3" />
+      <Item value="ProfileAttributes" priority="3" />
+      <Item value="PrivacyFlags" priority="3" />
+      <Item value="ProfileAttributeTypes" priority="2" />
+      <Item value="LevelOfExperienceTypes" priority="4" />
+      <Item value="Log" priority="0" />
+      <Item value="PrivacyFlagTypes" priority="0" />
+      <Item value="VisibilityLevels" priority="0" />
+      <Item value="Friends" priority="6" />
+      <Item value="FriendshipDefinitions" priority="4" />
+      <Item value="FriendshipDefinitionTypes" priority="0" />
+      <Item value="FriendInvitations" priority="6" />
+      <Item value="StatusUpdates" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.Account&gt;">
+      <Item value="DeleteOnSubmit" priority="0" />
+      <Item value="Attach" priority="2" />
+      <Item value="InsertOnSubmit" priority="4" />
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.Person&gt;">
+      <Item value="Attach" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.Person">
+      <Item value="FirstName" priority="1" />
+      <Item value="LastName" priority="1" />
+      <Item value="Email" priority="1" />
+      <Item value="PersonID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Fisharoo.FisharooCore.Core.Domain.Person&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.Account">
+      <Item value="FirstName" priority="13" />
+      <Item value="LastName" priority="11" />
+      <Item value="Email" priority="16" />
+      <Item value="AccountID" priority="46" />
+      <Item value="BirthDate" priority="3" />
+      <Item value="Zip" priority="3" />
+      <Item value="Username" priority="19" />
+      <Item value="Password" priority="3" />
+      <Item value="Detach" priority="0" />
+      <Item value="Timestamp" priority="0" />
+      <Item value="TermID" priority="0" />
+      <Item value="AddPermission" priority="2" />
+      <Item value="Permissions" priority="5" />
+      <Item value="HasPermission" priority="0" />
+      <Item value="Profile" priority="12" />
+      <Item value="LastUpdateDate" priority="1" />
+      <Item value="CreateDate" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="Stub" priority="0" />
+      <Item value="ReplayAll" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IAccountRepository">
+      <Item value="GetAccountByID" priority="9" />
+      <Item value="SaveAccount" priority="0" />
+      <Item value="GetAccountByUsername" priority="3" />
+      <Item value="UpdateAccount" priority="1" />
+      <Item value="GetAccountByEmail" priority="2" />
+      <Item value="AddPermission" priority="0" />
+      <Item value="SearchAccounts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationSettings">
+      <Item value="AppSettings" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="32" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IWebContext">
+      <Item value="ContainsInSession" priority="0" />
+      <Item value="LoggedIn" priority="1" />
+      <Item value="Username" priority="1" />
+      <Item value="CaptchaImageText" priority="2" />
+      <Item value="UsernameToVerify" priority="0" />
+      <Item value="AccountID" priority="7" />
+      <Item value="ShowGravatar" priority="0" />
+      <Item value="RootUrl" priority="0" />
+      <Item value="FriendshipRequest" priority="10" />
+      <Item value="SearchText" priority="3" />
+      <Item value="AccoundIdToInvite" priority="1" />
+      <Item value="CurrentUser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IUserSession">
+      <Item value="LoggedIn" priority="8" />
+      <Item value="Username" priority="2" />
+      <Item value="CurrentUser" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.UserControls.Interfaces.ILogInLinks">
+      <Item value="ShowAppropriateLoginStatePanel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.UserControls.Presenters.LogInLinksPresenter">
+      <Item value="Home" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Properties">
+      <Item value="Settings" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Properties.Settings">
+      <Item value="Default" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Properties.Settings.Default">
+      <Item value="FisharooConnectionString" priority="2" />
+      <Item value="FisharooConnectionStringDevelopment" priority="1" />
+      <Item value="ConnectionStringToUse" priority="0" />
+      <Item value="FisharooConnectionStringLocal" priority="3" />
+      <Item value="FisharooConnectionStringProduction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="Load" priority="0" />
+      <Item value="GetElementsByTagName" priority="0" />
+      <Item value="InnerText" priority="1" />
+      <Item value="ToString" priority="1" />
+      <Item value="Substring" priority="2" />
+      <Item value="Length" priority="7" />
+      <Item value="Trim" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNode">
+      <Item value="InnerText" priority="0" />
+      <Item value="ToString" priority="0" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Presenter.RegisterPresenter">
+      <Item value="Register" priority="0" />
+      <Item value="Init" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="56" />
+      <Item value="ID" priority="0" />
+      <Item value="Columns" priority="0" />
+      <Item value="Rows" priority="0" />
+      <Item value="MaxLength" priority="0" />
+      <Item value="Attributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.Domain">
+      <Item value="Account" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IAccountService">
+      <Item value="EmailInUse" priority="0" />
+      <Item value="UsernameInUse" priority="0" />
+      <Item value="Login" priority="0" />
+      <Item value="Logout" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.IRegister">
+      <Item value="ShowErrorMessage" priority="3" />
+      <Item value="ShowAccountCreatedPanel" priority="0" />
+      <Item value="ToggleWizardIndex" priority="2" />
+      <Item value="LoadTerms" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Wizard">
+      <Item value="ActiveStepIndex" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.StateBag">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Fisharoo.FisharooCore.Core.Domain.Account&gt;">
+      <Item value="Add" priority="1" />
+      <Item value="ToArray" priority="0" />
+      <Item value="Count" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Presenter.LoginPresenter">
+      <Item value="Init" priority="0" />
+      <Item value="Login" priority="0" />
+      <Item value="GoToRecoverPassword" priority="0" />
+      <Item value="GoToRegister" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:T">
+      <Item value="Password" priority="0" />
+      <Item value="Email" priority="2" />
+      <Item value="EmailVerified" priority="0" />
+      <Item value="Username" priority="0" />
+      <Item value="AddPermission" priority="0" />
+      <Item value="AccountID" priority="1" />
+      <Item value="TimeStamp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Interface.ILogin">
+      <Item value="DisplayMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable&lt;System.DateTime&gt;">
+      <Item value="ToString" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Presenter.EditAccountPresenter">
+      <Item value="Init" priority="0" />
+      <Item value="LoadCurrentUser" priority="0" />
+      <Item value="UpdateAccount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Interface.IEditAccount">
+      <Item value="LoadCurrentInformation" priority="0" />
+      <Item value="ShowMessage" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.Impl.Connection">
+      <Item value="GetContext" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Presenter.RecoverPasswordPresenter">
+      <Item value="RecoverPassword" priority="0" />
+      <Item value="Init" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IEmail">
+      <Item value="SendEmail" priority="1" />
+      <Item value="SendEmailAddressVerificationEmail" priority="1" />
+      <Item value="ParseEmailsFromText" priority="0" />
+      <Item value="SendInvitations" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Interface.IRecoverPassword">
+      <Item value="ShowMessage" priority="1" />
+      <Item value="ShowRecoverPasswordPanel" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.Term">
+      <Item value="TermID" priority="1" />
+      <Item value="Terms" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.Term&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="DeleteOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.ITermRepository">
+      <Item value="GetCurrentTerm" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="2" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IConfiguration">
+      <Item value="RootURL" priority="1" />
+      <Item value="SiteName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Interface.IVerifyEmail">
+      <Item value="ShowMessage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Account.Presenter.VerifyEmailPresenter">
+      <Item value="Init" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Fisharoo.FisharooCore.Core.Domain.Permission&gt;">
+      <Item value="Add" priority="2" />
+      <Item value="Count" priority="3" />
+      <Item value="Find" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.Permission">
+      <Item value="PermissionID" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.Permission&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="InsertOnSubmit" priority="0" />
+      <Item value="DeleteOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IPermissionRepository">
+      <Item value="GetPermissionsByAccountID" priority="0" />
+      <Item value="GetPermissionByName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.AccountPermission">
+      <Item value="AccountID" priority="0" />
+      <Item value="PermissionID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.AccountPermission&gt;">
+      <Item value="InsertOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.INavigation">
+      <Item value="PrimaryNodes" priority="0" />
+      <Item value="FooterNodes" priority="0" />
+      <Item value="CheckAccessToCurrentNode" priority="0" />
+      <Item value="CheckAccessForCurrentNode" priority="0" />
+      <Item value="CurrentNode" priority="4" />
+      <Item value="SecondaryNodes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.SiteMap">
+      <Item value="CurrentNode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Contains" priority="2" />
+      <Item value="IndexOf" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpApplication">
+      <Item value="PostResolveRequestCache" priority="0" />
+      <Item value="Request" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Response" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.Impl.Cryptography">
+      <Item value="Encrypt" priority="0" />
+      <Item value="Decrypt" priority="0" />
+      <Item value="CreateMD5Hash" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.ProfileAttribute&gt;">
+      <Item value="Attach" priority="1" />
+      <Item value="InsertOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Presenter.ManageProfilePresenter">
+      <Item value="Init" priority="0" />
+      <Item value="SaveProfile" priority="1" />
+      <Item value="LoadProfile" priority="0" />
+      <Item value="GetProfileAttributeTypes" priority="1" />
+      <Item value="GetProfile" priority="0" />
+      <Item value="GetAccount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.Profile">
+      <Item value="AccountID" priority="0" />
+      <Item value="ProfileID" priority="11" />
+      <Item value="IMAOL" priority="2" />
+      <Item value="IMGIM" priority="2" />
+      <Item value="IMICQ" priority="2" />
+      <Item value="IMMSN" priority="2" />
+      <Item value="IMSkype" priority="2" />
+      <Item value="IMYIM" priority="2" />
+      <Item value="LevelOfExperienceTypeID" priority="3" />
+      <Item value="NumberOfFishOwned" priority="2" />
+      <Item value="NumberOfTanksOwned" priority="2" />
+      <Item value="Signature" priority="1" />
+      <Item value="YearOfFirstTank" priority="2" />
+      <Item value="Attributes" priority="15" />
+      <Item value="LastUpdateDate" priority="0" />
+      <Item value="CreateDate" priority="0" />
+      <Item value="Timestamp" priority="2" />
+      <Item value="Avatar" priority="8" />
+      <Item value="AvatarMimeType" priority="1" />
+      <Item value="LevelOfExperience" priority="2" />
+      <Item value="UseGravatar" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedIndex" priority="0" />
+      <Item value="SelectedValue" priority="1" />
+      <Item value="ResolveUrl" priority="0" />
+      <Item value="Items" priority="2" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IProfileRepository">
+      <Item value="GetProfileByAccountID" priority="8" />
+      <Item value="SaveProfile" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.LevelOfExperienceType">
+      <Item value="LevelOfExperienceTypeID" priority="1" />
+      <Item value="LevelOfExperience" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.LevelOfExperienceType&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="InsertOnSubmit" priority="0" />
+      <Item value="DeleteOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.ILevelOfExperienceTypeRepository">
+      <Item value="GetAllLevelOfExperienceTypes" priority="0" />
+      <Item value="GetLevelOfExperienceTypeByID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.ProfileAttribute">
+      <Item value="ProfileAttributeID" priority="7" />
+      <Item value="Response" priority="2" />
+      <Item value="ProfileAttributeTypeID" priority="6" />
+      <Item value="ProfileID" priority="0" />
+      <Item value="CreateDate" priority="0" />
+      <Item value="ProfileAttributeType" priority="4" />
+      <Item value="TimeStamp" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.PlaceHolder">
+      <Item value="Controls" priority="16" />
+      <Item value="FindControl" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="Add" priority="14" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.ProfileAttributeType">
+      <Item value="AttributeType" priority="2" />
+      <Item value="ProfileAttributeTypeID" priority="8" />
+      <Item value="PrivacyFlagTypeID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Interface.IManageProfile">
+      <Item value="LoadProfileAttributes" priority="0" />
+      <Item value="LoadLevelOfExperienceTypes" priority="0" />
+      <Item value="LoadProfile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IProfileAttributeRepository">
+      <Item value="GetProfileAttributeTypes" priority="1" />
+      <Item value="GetProfileAttributesByProfileID" priority="2" />
+      <Item value="AddProfileAttribute" priority="0" />
+      <Item value="GetProfileAttributeTypeByID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Fisharoo.FisharooCore.Core.Domain.ProfileAttribute&gt;">
+      <Item value="Add" priority="0" />
+      <Item value="Count" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:byte">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.Profile&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="InsertOnSubmit" priority="0" />
+      <Item value="DeleteOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IProfileService">
+      <Item value="SaveProfile" priority="0" />
+      <Item value="LoadProfileByAccountID" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Value" priority="0" />
+      <Item value="Selected" priority="2" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="FromBase64String" priority="0" />
+      <Item value="ToByte" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.SiteMapNodeCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FileUpload">
+      <Item value="PostedFile" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFile">
+      <Item value="FileName" priority="1" />
+      <Item value="ContentType" priority="0" />
+      <Item value="ContentLength" priority="1" />
+      <Item value="InputStream" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Read" priority="2" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:byte[]">
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HiddenField">
+      <Item value="Value" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Binary">
+      <Item value="Length" priority="2" />
+      <Item value="ToArray" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Presenter.UploadAvatarPresenter">
+      <Item value="Init" priority="0" />
+      <Item value="UploadFile" priority="0" />
+      <Item value="CropFile" priority="0" />
+      <Item value="Complete" priority="0" />
+      <Item value="StartNewAvatar" priority="0" />
+      <Item value="UseGravatar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Interface.IUploadAvatar">
+      <Item value="ShowMessage" priority="0" />
+      <Item value="ShowApprovePanel" priority="0" />
+      <Item value="ShowUploadPanel" priority="0" />
+      <Item value="ShowCropPanel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IPrivacyRepository">
+      <Item value="GetPrivacyFlagTypes" priority="0" />
+      <Item value="GetVisibilityLevels" priority="0" />
+      <Item value="GetPrivacyFlagsByProfileID" priority="1" />
+      <Item value="SavePrivacyFlag" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.PrivacyFlagType">
+      <Item value="FieldName" priority="0" />
+      <Item value="PrivacyFlagTypeID" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.VisibilityLevel">
+      <Item value="Name" priority="0" />
+      <Item value="VisibilityLevelID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Fisharoo.FisharooCore.Core.Domain.PrivacyFlag&gt;">
+      <Item value="Contains" priority="3" />
+      <Item value="Count" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Exists" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.PrivacyFlag">
+      <Item value="PrivacyFlagTypeID" priority="1" />
+      <Item value="VisibilityLevelID" priority="1" />
+      <Item value="ProfileID" priority="0" />
+      <Item value="CreateDate" priority="0" />
+      <Item value="PrivacyFlagID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.PrivacyFlag&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="InsertOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Presenter.ManagePrivacyPresenter">
+      <Item value="SavePrivacyFlag" priority="0" />
+      <Item value="GetPrivacyFlagTypes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Interface.IManagePrivacy">
+      <Item value="ShowMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Interface.IProfile">
+      <Item value="SetAvatar" priority="0" />
+      <Item value="DisplayInfo" priority="0" />
+      <Item value="DisplayLevelOfExperience" priority="0" />
+      <Item value="SetPrivacy" priority="0" />
+      <Item value="pnlPrivacyIMVisible" priority="0" />
+      <Item value="pnlPrivacyAccountInfoVisible" priority="0" />
+      <Item value="pnlPrivacyTankInfoVisible" priority="0" />
+      <Item value="LoadFriends" priority="0" />
+      <Item value="LoadStatusUpdates" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Image">
+      <Item value="ImageAlign" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.AttributeCollection">
+      <Item value="Add" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CustomValidator">
+      <Item value="ControlToValidate" priority="0" />
+      <Item value="ClientValidationFunction" priority="0" />
+      <Item value="ErrorMessage" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="ForeColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Red" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Now">
+      <Item value="Ticks" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.Linq">
+      <Item value="Binary" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IPrivacyService">
+      <Item value="ShouldShow" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.Domain.PrivacyFlagType+PrivacyFlagTypes">
+      <Item value="IM" priority="0" />
+      <Item value="AccountInfo" priority="0" />
+      <Item value="TankInfo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Presenter.ProfilePresenter">
+      <Item value="IsAttributeVisible" priority="0" />
+      <Item value="GoToStatusUpdates" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IAlertRepository">
+      <Item value="SaveAlert" priority="1" />
+      <Item value="GetAlertsByAccountID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.Alert">
+      <Item value="Message" priority="10" />
+      <Item value="CreateDate" priority="5" />
+      <Item value="AlertID" priority="2" />
+      <Item value="AccountID" priority="7" />
+      <Item value="AlertTypeID" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.Domain.AlertType+AlertTypes">
+      <Item value="AccountCreated" priority="0" />
+      <Item value="AccountModified" priority="0" />
+      <Item value="ProfileCreated" priority="0" />
+      <Item value="ProfileModified" priority="0" />
+      <Item value="NewAvatar" priority="0" />
+      <Item value="FriendAdded" priority="0" />
+      <Item value="FriendRequest" priority="1" />
+      <Item value="StatusUpdate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IAlertService">
+      <Item value="AddAccountModifiedAlert" priority="0" />
+      <Item value="AddAccountCreatedAlert" priority="0" />
+      <Item value="AddProfileModifiedAlert" priority="0" />
+      <Item value="AddProfileCreatedAlert" priority="0" />
+      <Item value="AddNewAvatarAlert" priority="1" />
+      <Item value="GetAlertsByAccountID" priority="0" />
+      <Item value="AddFriendAddedAlert" priority="0" />
+      <Item value="AddFriendRequestAlert" priority="0" />
+      <Item value="AddStatusUpdateAlert" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Presenter.DefaultPresenter">
+      <Item value="Init" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Interface.IDefault">
+      <Item value="ShowAlerts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Fisharoo.FisharooCore.Core.Domain.Alert&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.Domain.VisibilityLevel+VisibilityLevels">
+      <Item value="Private" priority="0" />
+      <Item value="Friends" priority="0" />
+      <Item value="Public" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="MapPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.Friend">
+      <Item value="FriendID" priority="1" />
+      <Item value="CreateDate" priority="1" />
+      <Item value="AccountID" priority="1" />
+      <Item value="MyFriendsAccountID" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.Friend&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="InsertOnSubmit" priority="0" />
+      <Item value="DeleteOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.FriendshipDefinition">
+      <Item value="FriendshipDefinitionID" priority="0" />
+      <Item value="CreateDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.FriendshipDefinition&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="InsertOnSubmit" priority="0" />
+      <Item value="DeleteOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.FriendInvitation&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="InsertOnSubmit" priority="0" />
+      <Item value="DeleteOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.StatusUpdate">
+      <Item value="StatusUpdateID" priority="0" />
+      <Item value="CreateDate" priority="1" />
+      <Item value="AccountID" priority="0" />
+      <Item value="Status" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table&lt;Fisharoo.FisharooCore.Core.Domain.StatusUpdate&gt;">
+      <Item value="Attach" priority="0" />
+      <Item value="InsertOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.Domain.FriendInvitation">
+      <Item value="CreateDate" priority="0" />
+      <Item value="AccountID" priority="5" />
+      <Item value="Email" priority="1" />
+      <Item value="GUID" priority="2" />
+      <Item value="BecameAccountID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Friends.Interface.IInviteFriends">
+      <Item value="DisplayToData" priority="0" />
+      <Item value="ShowMessage" priority="1" />
+      <Item value="ResetUI" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IFriendInvitationRepository">
+      <Item value="SaveFriendInvitation" priority="1" />
+      <Item value="GetFriendInvitationByGUID" priority="2" />
+      <Item value="CleanUpFriendInvitationsForThisEmail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Friends.Presenter.InviteFriendsPresenter">
+      <Item value="SendInvitation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Friends.Interface.IConfirmFriendshipRequest">
+      <Item value="LoadDisplay" priority="0" />
+      <Item value="ShowConfirmPanel" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Friends.Presenter.ConfirmFriendshipRequestPresenter">
+      <Item value="Init" priority="0" />
+      <Item value="LoginClick" priority="0" />
+      <Item value="RegisterClick" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IFriendRepository">
+      <Item value="SaveFriend" priority="0" />
+      <Item value="GetFriendsByAccountID" priority="2" />
+      <Item value="GetFriendsAccountsByAccountID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Accounts.IRegister">
+      <Item value="LoadEmailAddressFromFriendInvitation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IFriendService">
+      <Item value="CreateFriendFromFriendInvitation" priority="1" />
+      <Item value="IsFriend" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Presenter.SearchPresenter">
+      <Item value="Init" priority="0" />
+      <Item value="PerformSearch" priority="0" />
+      <Item value="SendFriendRequest" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Interface.ISearch">
+      <Item value="LoadAccounts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Attributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.UserControls.ProfileDisplay">
+      <Item value="LoadDisplay" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinkButton">
+      <Item value="Attributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Fisharoo.FisharooCore.Core.Domain.Friend&gt;">
+      <Item value="Contains" priority="1" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;int&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Friends.Presenter.DefaultPresenter">
+      <Item value="Init" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Friends.Interface.IDefault">
+      <Item value="LoadDisplay" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft">
+      <Item value="Office" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Office">
+      <Item value="Interop" priority="0" />
+      <Item value="Core" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Office.Interop">
+      <Item value="Outlook" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Office.Interop.Outlook">
+      <Item value="_Application" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Outlook._Application">
+      <Item value="Session" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Outlook.NameSpace">
+      <Item value="GetDefaultFolder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Office.Interop.Outlook.OlDefaultFolders">
+      <Item value="olFolderContacts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Outlook.MAPIFolder">
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Outlook.ContactItem">
+      <Item value="FirstName" priority="0" />
+      <Item value="LastFirstAndSuffix" priority="0" />
+      <Item value="LastName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckedListBox">
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckedListBox.ObjectCollection">
+      <Item value="Add" priority="0" />
+      <Item value="Clear" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Friends.Presenter.OutlookCsvImporterPresenter">
+      <Item value="Init" priority="0" />
+      <Item value="ParseEmails" priority="0" />
+      <Item value="InviteContacts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBoxList">
+      <Item value="DataBind" priority="1" />
+      <Item value="DataValueField" priority="0" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Friends.Interface.IOutlookCsvImporter">
+      <Item value="ShowParsedEmail" priority="0" />
+      <Item value="ShowInvitationResult" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+      <Item value="Matches" priority="2" />
+      <Item value="Match" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.MatchCollection">
+      <Item value="GetEnumerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Match">
+      <Item value="Captures" priority="1" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Accounts.Interface.ILogin">
+      <Item value="DisplayMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.DataAccess.IStatusUpdateRepository">
+      <Item value="SaveStatusUpdate" priority="0" />
+      <Item value="GetTopNStatusUpdatesByAccountID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListViewDataItem">
+      <Item value="DataItem" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListView">
+      <Item value="DataSource" priority="0" />
+      <Item value="DataBind" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Fisharoo.FisharooCore.Core.Domain.StatusUpdate&gt;">
+      <Item value="Reverse" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Interface.IStatusUpdates">
+      <Item value="ShowUpdates" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooWeb.Profiles.Presenter.StatusUpdatesPresenter">
+      <Item value="Init" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <EditorManager>
+    <RecentFiles>
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/f:OutlookImporter.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/f:OutlookImporter.aspx" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/f:OutlookCsvImporter.aspx" caret="2463" scrollPosition="0|29" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/d:Presenter/f:OutlookCsvImporterPresenter.cs" caret="1293" scrollPosition="0|13" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/f:OutlookCsvImporter.aspx.cs" caret="1749" scrollPosition="0|24" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:FriendService.cs" caret="1653" scrollPosition="0|29" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:AccountService.cs" caret="2954" scrollPosition="0|74" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Accounts/d:Presenter/f:LoginPresenter.cs" caret="694" scrollPosition="0|14" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Accounts/f:Login.aspx.cs" caret="630" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/d:Presenter/f:ConfirmFriendshipRequestPresenter.cs" caret="1546" scrollPosition="0|30" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/f:ConfirmFriendshipRequest.aspx.cs" caret="0" scrollPosition="0|17" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/f:ConfirmFriendshipRequest.aspx" caret="531" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Accounts/d:Presenter/f:RegisterPresenter.cs" caret="4347" scrollPosition="0|66" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Accounts/f:Register.aspx.cs" caret="0" scrollPosition="0|51" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/f:Default.aspx" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/f:Default.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/d:Presenter/f:DefaultPresenter.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/f:Default.aspx.cs" caret="865" scrollPosition="0|6" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/d:Presenter/f:DefaultPresenter.cs" caret="1007" scrollPosition="0|3" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Friends/f:Default.aspx" caret="1073" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Email.cs" caret="2457" scrollPosition="0|34" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/f:Profile.aspx" caret="1191" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/f:Profile.aspx.cs" caret="1873" scrollPosition="0|42" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:AlertService.cs" caret="8701" scrollPosition="0|182" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/d:Presenter/f:ProfilePresenter.cs" caret="2504" scrollPosition="0|51" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:SiteMaster.Master" caret="10455" scrollPosition="0|102" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:SiteMaster.Master.cs" caret="2633" scrollPosition="0|37" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/f:StatusUpdates.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/f:StatusUpdates.aspx" caret="1005" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Profiles/d:Presenter/f:StatusUpdatesPresenter.cs" caret="1100" scrollPosition="0|12" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

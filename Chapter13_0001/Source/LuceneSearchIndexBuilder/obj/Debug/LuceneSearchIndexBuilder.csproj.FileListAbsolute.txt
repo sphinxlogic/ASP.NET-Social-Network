@@ -1,0 +1,5 @@
+P:\Projects\Fisharoo\trunk\Source\LuceneSearchIndexBuilder\bin\Debug\LuceneSearchIndexBuilder.exe
+P:\Projects\Fisharoo\trunk\Source\LuceneSearchIndexBuilder\bin\Debug\LuceneSearchIndexBuilder.pdb
+P:\Projects\Fisharoo\trunk\Source\LuceneSearchIndexBuilder\obj\Debug\ResolveAssemblyReference.cache
+P:\Projects\Fisharoo\trunk\Source\LuceneSearchIndexBuilder\obj\Debug\LuceneSearchIndexBuilder.exe
+P:\Projects\Fisharoo\trunk\Source\LuceneSearchIndexBuilder\obj\Debug\LuceneSearchIndexBuilder.pdb

@@ -1,0 +1,4 @@
+﻿* SiteMapWrapper should require that you pass in the user 
+    so that it can only return nodes that are appropriate for that user 
+    to hide this logic
+* Need to add presenter/interface logic to master page

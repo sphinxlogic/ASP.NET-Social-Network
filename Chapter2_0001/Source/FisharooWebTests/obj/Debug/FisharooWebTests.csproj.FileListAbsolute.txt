@@ -1,0 +1,11 @@
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\bin\Debug\Web.config
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\bin\Debug\StructureMap.config
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\bin\Debug\Fisahroo.FisharooWebTests.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\bin\Debug\Fisahroo.FisharooWebTests.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\bin\Debug\Fisahroo.FisharooWeb.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\bin\Debug\Fisharoo.FisharooCore.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\bin\Debug\Fisahroo.FisharooWeb.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\bin\Debug\Fisharoo.FisharooCore.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\obj\Debug\Fisahroo.FisharooWebTests.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooWebTests\obj\Debug\Fisahroo.FisharooWebTests.pdb

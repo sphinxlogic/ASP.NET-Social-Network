@@ -1,0 +1,8 @@
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\bin\Debug\FisharooOutlookImporter.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\bin\Debug\FisharooOutlookImporter.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.csproj.ResolveComReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.OutlookImporter.resources
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.csproj.GenerateResource.Cache
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.pdb

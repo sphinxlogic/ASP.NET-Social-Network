@@ -1,0 +1,10 @@
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\bin\app.config
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\bin\ConnectionStringToUse.xml
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\bin\Fisharoo.FisharooAdminConsole.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\bin\Fisharoo.FisharooAdminConsole.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\bin\Fisharoo.FisharooCore.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\bin\log4net.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\bin\Fisharoo.FisharooCore.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\obj\Debug\Fisharoo.FisharooAdminConsole.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooAdminConsole\obj\Debug\Fisharoo.FisharooAdminConsole.pdb

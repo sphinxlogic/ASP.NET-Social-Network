@@ -1,0 +1,58 @@
+<cruisecontrol>
+<project name="Fisharoo">
+  <labeller type="defaultlabeller" />
+  <webURL>http://ccnet.fisharoo.com/ccnet/ViewFarmReport.aspx</webURL>
+  <sourcecontrol type="filtered">
+    <sourceControlProvider type="svn" autoGetSource="true">
+      <executable>C:\data\projects\Fisharoo\trunk\binaries\subversion\svn.exe</executable>
+      <trunkUrl>http://andrew-sjx124ut:8080/svn/Fisharoo.com/trunk</trunkUrl>
+      <workingDirectory>C:\data\repositories\Fisharoo.com</workingDirectory>
+      <tagOnSuccess>false</tagOnSuccess>
+      <tagBaseUrl>C:\data\projects\Fisharoo\tags\</tagBaseUrl>
+      <username>ccnet</username>
+      <password>tm-es@as</password>
+    </sourceControlProvider>
+    <inclusionFilters>
+      <pathFilter>
+        <pattern>**/*.*</pattern>
+      </pathFilter>
+    </inclusionFilters>
+  </sourcecontrol>
+  <tasks>
+    <nant>
+      <executable>C:\data\projects\Fisharoo\trunk\binaries\nant\nant.exe</executable>
+      <baseDirectory>C:\data\projects\Fisharoo\trunk\source\</baseDirectory>
+      <buildArgs>-D:svn.executable="C:\data\projects\Fisharoo\trunk\binaries\subversion\svn.exe"</buildArgs>
+      <nologo>false</nologo>
+      <buildFile>C:\data\projects\Fisharoo\trunk\Build\fisharoo.build</buildFile>
+      <targetList>
+              <target>cruise</target>
+      </targetList>
+      <buildTimeoutSeconds>1200</buildTimeoutSeconds>
+    </nant>
+  </tasks>
+  <publishers>
+    <merge>
+      <files>
+        <file>C:\data\projects\Fisharoo\trunk\Build\Results\*.xml</file>
+      </files>
+    </merge>
+    <xmllogger />
+    <statistics />
+    <email
+      from="FisharooBuild@fisharoo.com"
+      mailhost="mail.fisharoo.com" includeDetails="TRUE">
+      <users>
+        <user name="Andrew Siemer" group="buildmaster" address="asiemer@fisharoo.com"/>
+        <user name="Jessica Siemer" group="buildmaster" address="jlsiemer@fisharoo.com"/>
+        <user name="Anatoliy Mamalyga" group="buildmaster" address="amamalyga@fisharoo.com"/>
+        <user name="Kenny Tongkul" group="buildmaster" address="ktongkul@fisharoo.com"/>
+        <user name="Arturo Moreno" group="buildmaster" address="amoreno@fisharoo.com"/>
+      </users>
+      <groups>
+        <group name="buildmaster" notification="always"/>
+      </groups>
+    </email>
+  </publishers>
+</project>
+</cruisecontrol>

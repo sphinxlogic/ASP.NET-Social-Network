@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------
+--- TODO
+• Send message to all members page (posted on their alerts filter and in inbox)
+
+------------------------------------------------------------------------------
+--- COMPLETED
+--- • Fancy URL for group page
+--- • When a group is created it's hidden forum should also be created
+--- • Link to group forum off of group home page
+--- • Link to become a member on the group page
+--- • Create an all members page to cycle through members
+--- • Create a show all members page
+--- • Approve membership page
+--- • Group posts show up on other group memebers home page - not the poster's friends page
+--- • Public group (anyone can join without approval)
+--- • Private group - must be a member to view the group
+--- • Need page text section in group that is more than the description box
+--- • Ability to delete a group from mygroups and from managegroup pages
+--- • Group type index page

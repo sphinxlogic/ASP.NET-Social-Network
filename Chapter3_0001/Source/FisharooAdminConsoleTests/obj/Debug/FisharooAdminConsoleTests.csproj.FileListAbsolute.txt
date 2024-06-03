@@ -1,0 +1,11 @@
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\bin\Debug\Fisharoo.FisharooAdminConsoleTests.dll
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\bin\Debug\Fisharoo.FisharooAdminConsoleTests.pdb
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\bin\Debug\Fisharoo.FisharooAdminConsole.dll
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\bin\Debug\Fisharoo.FisharooCore.dll
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\bin\Debug\StructureMap.dll
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\bin\Debug\log4net.dll
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\bin\Debug\Fisharoo.FisharooCore.pdb
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\bin\Debug\Fisharoo.FisharooAdminConsole.pdb
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\obj\Debug\Fisharoo.FisharooAdminConsoleTests.dll
+C:\projects\Fisharoo\trunk\Source\FisharooAdminConsoleTests\obj\Debug\Fisharoo.FisharooAdminConsoleTests.pdb

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home" pageTitle="Welcome to the Fisharoo Admin Console"  description="" topnav="1">
+      <siteMapNode url="/accounts/default.aspx" title="Accounts" pageTitle="Accounts Management" description="" topnav="1">
+        <siteMapNode url="/accounts/Accounts.aspx" title="Accounts" pageTitle="All Accounts" description="" />
+        <siteMapNode url="/accounts/Permissions.aspx" title="Permissions" pageTitle="All Permissions" description="" />
+        <siteMapNode url="/accounts/Terms.aspx" title="Terms" pageTitle="All Terms" description="" />
+      </siteMapNode>
+      <siteMapNode url="/files/default.aspx" title="Files" pageTitle="File Management" description="" topnav="1">
+        <siteMapNode url="/files/Folders.aspx" title="Folders" pageTitle="Folders" description="" />
+        <siteMapNode url="/files/Files.aspx" title="Files" pageTitle="Files" description="" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

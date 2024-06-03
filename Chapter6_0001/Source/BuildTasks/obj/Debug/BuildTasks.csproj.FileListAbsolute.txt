@@ -1,0 +1,8 @@
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\Fisharoo.BuildTasks.dll
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\Fisharoo.BuildTasks.pdb
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\NAnt.Core.dll
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\log4net.dll
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\bin\Debug\NAnt.Core.xml
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\Fisharoo.BuildTasks.dll
+C:\Projects\Fisharoo\trunk\Source\BuildTasks\obj\Debug\Fisharoo.BuildTasks.pdb

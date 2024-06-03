@@ -1,0 +1,17 @@
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\app.config
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\ConnectionStringToUse.xml
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\FisharooMailQueueProcessor.exe
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\FisharooMailQueueProcessor.pdb
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\Fisharoo.FisharooCore.dll
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\StructureMap.dll
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\log4net.dll
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\Enyim.Caching.dll
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\Lucene.Net.dll
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\Enyim.Caching.pdb
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\Fisharoo.FisharooCore.pdb
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\Lucene.Net.xml
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\obj\Debug\ResolveAssemblyReference.cache
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\obj\Debug\FisharooMailQueueProcessor.exe
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\obj\Debug\FisharooMailQueueProcessor.pdb
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\StructureMap.config
+P:\Projects\Fisharoo\trunk\Source\FisharooMailQueueProcessor\bin\Debug\FisharooMailQueueProcessor.exe.config

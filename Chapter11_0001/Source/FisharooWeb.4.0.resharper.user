@@ -1,0 +1,278 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/f:ISystemObjectTagRepository.cs" caret="428" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Navigation.cs" caret="4180" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Tags/d:Interface/f:ITags.cs" caret="327" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Tags/d:Presenter/f:TagsPresenter.cs" caret="910" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Blogs/f:Post.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Groups/d:Presenter/f:DefaultPresenter.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Groups/f:Default.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Groups/f:ViewGroup.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Tags/f:Tags.aspx.cs" caret="1699" scrollPosition="0|24" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Domain/f:SystemObjectTagWithObject.cs" caret="515" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Files/f:Default.aspx" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx.cs" caret="1221" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Tags.ascx" caret="129" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Tags.ascx.cs" caret="1074" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Ratings.ascx" caret="866" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:TagsRepository.cs" caret="2621" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Presenters/f:TagsPresenter.cs" caret="3570" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Tags/f:Tags.aspx" caret="3494" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:SiteMaster.Master" caret="7386" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:Default.aspx" caret="445" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:SystemObjectTagRepository.cs" caret="4986" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/f:ICommentsRepository.cs" caret="391" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:CommentsRepository.cs" caret="1390" scrollPosition="0|25" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Mail/f:NewMessage.aspx" caret="1476" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx" caret="3277" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx.cs" caret="613" scrollPosition="0|9" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Interfaces/f:IComments.cs" caret="450" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Presenters/f:CommentsPresenter.cs" caret="1553" scrollPosition="0|12" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx" caret="751" scrollPosition="0|0" />
+      <File id="FBDC1490-7782-4621-BD08-FBFFCE80257B/f:Chapter11_Notes.txt" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Tags.ascx" caret="590" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx.cs" caret="3851" scrollPosition="0|3" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx.cs" caret="3851" scrollPosition="0|9" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx.cs" caret="3851" scrollPosition="0|21" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx.cs" caret="3851" scrollPosition="0|21" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx.cs" caret="935" scrollPosition="0|23" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx.cs" caret="1221" scrollPosition="0|23" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:SystemObjectTagRepository.cs" caret="1057" scrollPosition="0|15" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:SystemObjectTagRepository.cs" caret="2976" scrollPosition="0|21" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Tags/f:Tags.aspx" caret="3494" scrollPosition="370|27" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:Default.aspx" caret="445" scrollPosition="0|0" />
+      <File id="FBDC1490-7782-4621-BD08-FBFFCE80257B/f:Chapter11_Notes.txt" caret="88" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Presenters/f:CommentsPresenter.cs" caret="722" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx" caret="519" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:Photos/f:ViewAlbum.aspx" caret="3222" scrollPosition="50|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx.cs" caret="951" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx.cs" caret="778" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Presenters/f:CommentsPresenter.cs" caret="722" scrollPosition="0|5" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Presenters/f:CommentsPresenter.cs" caret="1037" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx.cs" caret="1895" scrollPosition="21|9" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Presenters/f:CommentsPresenter.cs" caret="1463" scrollPosition="0|7" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx.cs" caret="1079" scrollPosition="0|9" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx.cs" caret="1487" scrollPosition="0|9" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Interfaces/f:IComments.cs" caret="450" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/d:Presenters/f:CommentsPresenter.cs" caret="2026" scrollPosition="0|16" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx" caret="699" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/d:UserControls/f:Comments.ascx" caret="266" scrollPosition="0|0" />
+      <File id="FBDC1490-7782-4621-BD08-FBFFCE80257B/f:Chapter11_Notes.txt" caret="90" scrollPosition="0|0" />
+      <File id="FBDC1490-7782-4621-BD08-FBFFCE80257B/f:Chapter11_Notes.txt" caret="818" scrollPosition="0|0" />
+      <File id="FBDC1490-7782-4621-BD08-FBFFCE80257B/f:Chapter11_Notes.txt" caret="987" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="FisharooDataContext" priority="1" />
+      <Item value="SystemObjectRatingOptionRepository" priority="0" />
+      <Item value="Connection" priority="0" />
+      <Item value="SystemObjectRatingOption" priority="0" />
+      <Item value="SystemObjectRatingOptionID" priority="4" />
+      <Item value="SystemObjectRatingOptions" priority="6" />
+      <Item value="systemObjectRatingOption" priority="3" />
+      <Item value="SubmitChanges" priority="1" />
+      <Item value="GetContext" priority="6" />
+      <Item value="DeleteOnSubmit" priority="0" />
+      <Item value="List&lt;SystemObjectRatingOption&gt;" priority="0" />
+      <Item value="Where" priority="4" />
+      <Item value="SystemObjectID" priority="18" />
+      <Item value="ToList" priority="3" />
+      <Item value="Pluggable" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="HttpCookie" priority="0" />
+      <Item value="StreamWriter" priority="0" />
+      <Item value="WriteLine" priority="3" />
+      <Item value="Close" priority="0" />
+      <Item value="Visible" priority="11" />
+      <Item value="repRatingOptions" priority="0" />
+      <Item value="Items" priority="2" />
+      <Item value="ItemType" priority="3" />
+      <Item value="AlternatingItem" priority="1" />
+      <Item value="Item" priority="13" />
+      <Item value="FindControl" priority="2" />
+      <Item value="CurrentRating" priority="0" />
+      <Item value="ToString" priority="4" />
+      <Item value="RatingEventArgs" priority="0" />
+      <Item value="Value" priority="6" />
+      <Item value="Rating" priority="2" />
+      <Item value="Tag" priority="5" />
+      <Item value="ModalPopupExtender1" priority="0" />
+      <Item value="Hide" priority="0" />
+      <Item value="CallbackResult" priority="0" />
+      <Item value="Text" priority="7" />
+      <Item value="ID" priority="0" />
+      <Item value="litSelectedRatings" priority="0" />
+      <Item value="DataItem" priority="8" />
+      <Item value="Add" priority="10" />
+      <Item value="TrimEnd" priority="0" />
+      <Item value="Substring" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="Current" priority="0" />
+      <Item value="Request" priority="1" />
+      <Item value="Dictionar&lt;int, int&gt;" priority="0" />
+      <Item value="Dictionary&lt;int,int&gt;" priority="1" />
+      <Item value="Key" priority="2" />
+      <Item value="ContainsKey" priority="0" />
+      <Item value="rating_Changed" priority="0" />
+      <Item value="GetInstance" priority="10" />
+      <Item value="btnCancel" priority="0" />
+      <Item value="ClientID" priority="1" />
+      <Item value="lbRateThis" priority="1" />
+      <Item value="Rating1" priority="0" />
+      <Item value="pnlRating" priority="1" />
+      <Item value="CurrentUser" priority="12" />
+      <Item value="ShowRating" priority="1" />
+      <Item value="btnSave_Click" priority="0" />
+      <Item value="SelectedRatings" priority="2" />
+      <Item value="ClearSelectedRatings" priority="0" />
+      <Item value="Ratings" priority="4" />
+      <Item value="List&lt;Rating&gt;" priority="0" />
+      <Item value="FisharooCore" priority="1" />
+      <Item value="Core" priority="2" />
+      <Item value="IProfileService" priority="0" />
+      <Item value="Domain" priority="1" />
+      <Item value="CreatedByAccountID" priority="6" />
+      <Item value="AccountID" priority="5" />
+      <Item value="CreatedByUsername" priority="1" />
+      <Item value="Username" priority="2" />
+      <Item value="CreateDate" priority="7" />
+      <Item value="Now" priority="3" />
+      <Item value="Score" priority="1" />
+      <Item value="SystemObjectRecordID" priority="21" />
+      <Item value="SaveRatings" priority="0" />
+      <Item value="Contains" priority="2" />
+      <Item value="SetCurrentRating" priority="0" />
+      <Item value="Select" priority="2" />
+      <Item value="GetCurrentRating" priority="0" />
+      <Item value="_view" priority="0" />
+      <Item value="Average" priority="0" />
+      <Item value="ToInt32" priority="1" />
+      <Item value="pnlModalPopup" priority="0" />
+      <Item value="Count" priority="8" />
+      <Item value="HasRatedBefore" priority="0" />
+      <Item value="CanSetRating" priority="0" />
+      <Item value="TagsPresenter" priority="0" />
+      <Item value="pnlTagCloud" priority="0" />
+      <Item value="pnlTag" priority="0" />
+      <Item value="Init" priority="3" />
+      <Item value="btnTag_Click" priority="0" />
+      <Item value="SaveTag" priority="1" />
+      <Item value="Name" priority="5" />
+      <Item value="GetTagByName" priority="2" />
+      <Item value="AddTag" priority="0" />
+      <Item value="SaveSystemObjectTag" priority="0" />
+      <Item value="SystemObjectTag" priority="1" />
+      <Item value="sysObjTag" priority="3" />
+      <Item value="TagID" priority="9" />
+      <Item value="Tags" priority="2" />
+      <Item value="InsertOnSubmit" priority="0" />
+      <Item value="SystemObjectTags" priority="1" />
+      <Item value="ShowTagBox" priority="6" />
+      <Item value="Display" priority="6" />
+      <Item value="ShowCloud" priority="2" />
+      <Item value="ShowTagCloud" priority="4" />
+      <Item value="ShowCloudAndTagBox" priority="2" />
+      <Item value="phTagCloud" priority="1" />
+      <Item value="Controls" priority="7" />
+      <Item value="HyperLink" priority="0" />
+      <Item value="NavigateUrl" priority="0" />
+      <Item value="_tagRepository" priority="1" />
+      <Item value="GetTagsBySystemObject" priority="1" />
+      <Item value="Clear" priority="1" />
+      <Item value="ShowParentCloud" priority="0" />
+      <Item value="BuildParentTagCloud" priority="0" />
+      <Item value="OrderByDescending" priority="1" />
+      <Item value="Take" priority="0" />
+      <Item value="GetTagsGlobal" priority="0" />
+      <Item value="ShowGlobalCloud" priority="0" />
+      <Item value="PhysicalPath" priority="1" />
+      <Item value="ToLowerInvariant" priority="0" />
+      <Item value="Split" priority="0" />
+      <Item value="Replace" priority="1" />
+      <Item value="QueryString" priority="0" />
+      <Item value="RepeaterItemEventArgs" priority="0" />
+      <Item value="List&lt;SystemObjectTag&gt;" priority="1" />
+      <Item value="List&lt;Account&gt;" priority="0" />
+      <Item value="List&lt;Profile&gt;" priority="0" />
+      <Item value="List&lt;Blog&gt;" priority="0" />
+      <Item value="List&lt;BoardPost&gt;" priority="0" />
+      <Item value="List&lt;File&gt;" priority="0" />
+      <Item value="List&lt;Group&gt;" priority="0" />
+      <Item value="Accounts" priority="0" />
+      <Item value="ProfileID" priority="1" />
+      <Item value="PostID" priority="0" />
+      <Item value="SystemObjectTagWithObject" priority="1" />
+      <Item value="FirstOrDefault" priority="3" />
+      <Item value="GroupID" priority="0" />
+      <Item value="LoadUI" priority="0" />
+      <Item value="GetSystemObjectsByTagID" priority="0" />
+      <Item value="repFiles" priority="0" />
+      <Item value="DataSource" priority="0" />
+      <Item value="DataBind" priority="0" />
+      <Item value="File" priority="2" />
+      <Item value="FileName" priority="2" />
+      <Item value="Account" priority="0" />
+      <Item value="Title" priority="1" />
+      <Item value="SetTitle" priority="0" />
+      <Item value="GetTagByID" priority="0" />
+      <Item value="Folders" priority="0" />
+      <Item value="DefaultFolderID" priority="1" />
+      <Item value="FolderID" priority="1" />
+      <Item value="List&lt;Folder&gt;" priority="0" />
+      <Item value="Year" priority="0" />
+      <Item value="Month" priority="0" />
+      <Item value="FileSystemName" priority="0" />
+      <Item value="Extension" priority="1" />
+      <Item value="Container" priority="0" />
+      <Item value="BindingContainer" priority="2" />
+      <Item value="FileID" priority="0" />
+      <Item value="usercontrols_tags_ascx" priority="1" />
+      <Item value="FisharooWeb" priority="0" />
+      <Item value="UserControls" priority="0" />
+      <Item value="ToInt64" priority="0" />
+      <Item value="Dictionary&lt;int,string&gt;" priority="0" />
+      <Item value="List&lt;FileType&gt;" priority="0" />
+      <Item value="FileTypes" priority="0" />
+      <Item value="FileTypeID" priority="1" />
+      <Item value="CommentsPresenter" priority="0" />
+      <Item value="AddComment" priority="0" />
+      <Item value="Comment" priority="0" />
+      <Item value="Body" priority="1" />
+      <Item value="CommentByAccountID" priority="0" />
+      <Item value="CommentByUsername" priority="1" />
+      <Item value="SaveComment" priority="0" />
+      <Item value="ShowCommentBox" priority="1" />
+      <Item value="phComments" priority="1" />
+      <Item value="LiteralControl" priority="0" />
+      <Item value="ToShortDateString" priority="0" />
+      <Item value="LoadComments" priority="1" />
+      <Item value="_commentsRepository" priority="0" />
+      <Item value="GetCommentsBySystemObject" priority="0" />
+      <Item value="ClearComments" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

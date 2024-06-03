@@ -1,0 +1,11 @@
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\bin\app.config
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\bin\ConnectionStringToUse.xml
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\bin\Web.config
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\bin\StructureMap.config
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\bin\Fisharoo.FisharooWeb.dll
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\bin\Fisharoo.FisharooWeb.pdb
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\bin\Fisharoo.FisharooCore.dll
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\bin\Fisharoo.FisharooCore.pdb
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\obj\Debug\Fisharoo.FisharooWeb.dll
+C:\projects\Fisharoo\trunk\Source\FisharooWeb\obj\Debug\Fisharoo.FisharooWeb.pdb

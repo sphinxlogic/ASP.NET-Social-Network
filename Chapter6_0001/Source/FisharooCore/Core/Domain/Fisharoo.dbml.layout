@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 17.625" name="Fisharoo">
+  <DataContextMoniker Name="/FisharooDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f4d0a621-858e-4aaa-9309-85c19d875a11" absoluteBounds="3, 5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FisharooDataContext/AccountPermission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1ce49fc-ad00-470e-8f9a-88f9f8b589e7" absoluteBounds="3.015, 5.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b90e790c-4021-4057-b701-b2aa83d6b1cc" absoluteBounds="3, 3.5, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/FisharooDataContext/Permission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43f0e810-d3b4-447b-be88-41add0c5b497" absoluteBounds="3.0149999999999997, 3.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74022f9b-64f0-4f12-a063-39ef2594bc02" absoluteBounds="0.875, 3.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FisharooDataContext/Term" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6af1a5d0-84ba-4fba-baae-9d37a4ccff6c" absoluteBounds="0.89, 3.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5a3eb810-f636-41a3-802b-d6492e722969" absoluteBounds="0.875, 5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/FisharooDataContext/Account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6099b35b-a643-47a1-a1dd-29655bb308d0" absoluteBounds="0.89000000000000012, 5.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="251c5b19-6814-4f84-92ec-b6f2be70b294" absoluteBounds="5.875, 1.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/FisharooDataContext/PrivacyFlag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25a36d25-1058-4aa2-b274-6e3af37822ec" absoluteBounds="5.8900000000000006, 1.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8aea4e87-f453-4e1a-9f31-6ee6f68418b0" absoluteBounds="8, 6.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/FisharooDataContext/ProfileAttribute" />
+      <nestedChildShapes>
+        <elementListCompartment Id="075b4f7b-b8f3-4440-ab5f-2520dd7c63d1" absoluteBounds="8.015, 6.8350000000000009, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f97a255b-d9bb-4a14-ae04-66e79d37de0f" absoluteBounds="8, 3.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FisharooDataContext/VisibilityLevel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6364bf91-733d-4659-94f1-2af6fb182631" absoluteBounds="8.015, 3.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3660fd7e-69c5-4199-b67b-1974cdbf01c1" absoluteBounds="8, 4.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FisharooDataContext/LevelOfExperienceType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15cbc385-86cc-493f-8499-06ab62744f7b" absoluteBounds="8.015, 5.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bcd43be4-caf0-486a-83be-41c29714a59b" absoluteBounds="8, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FisharooDataContext/PrivacyFlagType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dbb0df2d-8fdc-46ff-aeaf-6b8044765678" absoluteBounds="8.015, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7264239-5436-449c-896d-06d25309d254" absoluteBounds="8, 8.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FisharooDataContext/ProfileAttributeType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="376f3f80-aeea-45d6-a7fb-afe25540bcc7" absoluteBounds="8.015, 8.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c01e3c4a-8b72-4def-aeb4-ee6a47bfa3d6" absoluteBounds="5.875, 3.625, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/FisharooDataContext/Profile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78164ff1-202e-479c-b790-5b2c26249dc3" absoluteBounds="5.89, 4.085, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c4de380-a2ff-43c4-aa72-9c597d92d28f" absoluteBounds="3, 6.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/FisharooDataContext/Alert" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8597eda1-2e46-4420-8ade-ce7e2c1a410e" absoluteBounds="3.015, 7.2100000000000009, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b9f55cbd-8cc7-4d28-8754-09870f76854c" absoluteBounds="3, 9, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FisharooDataContext/AlertType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="03975d8b-1a5f-4ed9-a66b-a4d16624c1ea" absoluteBounds="3.015, 9.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="61283aee-5083-4a62-a305-3a389d19dfdc" absoluteBounds="0.875, 13.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/FisharooDataContext/FriendInvitation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df4f79f4-6a2f-4b66-aea2-56e79d46c9ad" absoluteBounds="0.89000000000000012, 13.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4a75af57-4457-4e37-9532-fa2b060f7819" absoluteBounds="3, 14.375, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/FisharooDataContext/FriendshipDefinitionType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49871244-4ac6-4ac4-bc1d-dea4550b98ee" absoluteBounds="3.015, 14.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="79f12d33-59d6-44c8-9827-2a20112274cc" absoluteBounds="0.875, 11.25, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/FisharooDataContext/Friend" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1e7bc96-fb46-4528-b079-e1cafe06bdcb" absoluteBounds="0.89000000000000012, 11.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05b771db-d2ea-4042-9334-2f53ab61d4c9" absoluteBounds="3, 11.25, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/FisharooDataContext/FriendshipDefinition" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8a58e126-553a-4005-969b-d058a472c26d" absoluteBounds="3.0149999999999997, 11.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fd907606-93f9-409b-987b-5a6f0215437b" absoluteBounds="0.875, 15.625, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/FisharooDataContext/StatusUpdate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b241490f-0cc4-4ff9-abcd-e6892289fe4c" absoluteBounds="0.89000000000000057, 16.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="413192be-50c5-4ef7-86d9-2af7b46addb5" absoluteBounds="8, 11.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FisharooDataContext/MessageRecipientType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc64bff1-f879-414a-aff1-635f952c99b0" absoluteBounds="8.015, 11.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b66a7c8f-ae91-478f-b13e-9d7219fd3159" absoluteBounds="8, 14.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/FisharooDataContext/MessageType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ac00d9d-95f0-4da3-9edd-e92e6a4ac9cf" absoluteBounds="8.015, 14.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d58d2ee7-c8ba-4b09-9ad0-bc1a650c908e" absoluteBounds="5.875, 15.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/FisharooDataContext/MessageStatusType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30a90302-7377-4b81-b2ea-ef2941db2fd4" absoluteBounds="5.89, 16.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="011a3fc5-c5d2-4623-8284-f9df7a3550e4" absoluteBounds="8, 12.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/FisharooDataContext/MessageFolder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5935dac9-f045-410b-ad3e-93ba1ad3bb81" absoluteBounds="8.015, 12.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0742216a-fcd6-4a0f-a3a9-1b224b85455a" absoluteBounds="5.875, 11.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/FisharooDataContext/Message" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67ef1ca3-a17e-4e5c-bc56-b2e59a333a79" absoluteBounds="5.8900000000000006, 11.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a0c1116-fe24-4946-959d-3ffd58d34a4e" absoluteBounds="5.875, 13.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/FisharooDataContext/MessageRecipient" />
+      <nestedChildShapes>
+        <elementListCompartment Id="065967fe-f3a6-43d7-afa2-1f0f5e73b179" absoluteBounds="5.8900000000000006, 13.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

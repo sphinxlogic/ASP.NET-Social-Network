@@ -1,0 +1,1 @@
+Place these files in your visual studio xml>schemas directory to get intellisense to work with NAnt and the like.

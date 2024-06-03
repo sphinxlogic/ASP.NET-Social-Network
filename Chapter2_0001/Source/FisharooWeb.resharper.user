@@ -1,0 +1,140 @@
+<Configuration>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <EditorManager>
+    <RecentFiles>
+      <File id="F90A1257-604A-45CA-9844-CDA24F9D2437/f:StructureMap.config" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Properties/f:Settings.Designer.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:StructureMap.config" caret="163" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/f:IWebContext.cs" caret="210" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:WebContext.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Configuration.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Cache.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/f:IEmail.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/f:IConfiguration.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:Fisharoo.designer.cs" caret="830" scrollPosition="0|7" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:Web.config" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:PersonRepository.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/d:Impl/f:Connection.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:DataAccess/f:IPersonRepository.cs" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Email.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:Global.asax.cs" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:SiteMaster.Master" caret="0" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:Default.aspx" caret="0" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Log.cs" caret="5390" scrollPosition="0|161" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/d:Impl/f:Redirector.cs" caret="149" scrollPosition="0|0" />
+      <File id="D9BDE5FA-928D-41E8-9C86-5278314D9B4A/d:Core/f:IRedirector.cs" caret="174" scrollPosition="0|0" />
+      <File id="9F340310-5862-463F-80FF-9E71864E3BB4/f:Error.aspx" caret="252" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Web" priority="1" />
+      <Item value="Data" priority="4" />
+      <Item value="Linq" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisahroo.FisharooCore.Properties.Settings">
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext.Current">
+      <Item value="Response" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web">
+      <Item value="UI" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI">
+      <Item value="Page" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailMessage">
+      <Item value="CC" priority="4" />
+      <Item value="Bcc" priority="3" />
+      <Item value="Subject" priority="5" />
+      <Item value="Body" priority="5" />
+      <Item value="BodyEncoding" priority="0" />
+      <Item value="IsBodyHtml" priority="4" />
+      <Item value="To" priority="2" />
+      <Item value="From" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text">
+      <Item value="Encoding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.SmtpClient">
+      <Item value="Send" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailAddressCollection">
+      <Item value="Add" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data">
+      <Item value="Sql" priority="0" />
+      <Item value="Linq" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore">
+      <Item value="Core" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core">
+      <Item value="DataAccess" priority="0" />
+      <Item value="Impl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.DataAccess">
+      <Item value="Impl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo.FisharooCore.Core.DataAccess.Impl">
+      <Item value="Connection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;string&gt;">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Fisharoo">
+      <Item value="FisharooCore" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.FisharooDataContext">
+      <Item value="Persons" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Person">
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net">
+      <Item value="Appender" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Fisharoo.FisharooCore.Core.IRedirector">
+      <Item value="GoToHomePage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.EventArgs">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,9 @@
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\bin\StructureMap.config
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\bin\Web.config
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\bin\Fisahroo.FisharooWeb.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\bin\Fisahroo.FisharooWeb.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\bin\Fisharoo.FisharooCore.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\bin\Fisharoo.FisharooCore.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\obj\Debug\Fisahroo.FisharooWeb.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooWeb\obj\Debug\Fisahroo.FisharooWeb.pdb

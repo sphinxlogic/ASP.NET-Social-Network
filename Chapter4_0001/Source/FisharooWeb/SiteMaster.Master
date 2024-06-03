@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="Fisharoo.FisharooWeb.SiteMaster" %>
+<%@ Register Src="~/UserControls/LogInLinks.ascx" TagName="LogInLinks" TagPrefix="Fisharoo" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">    
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        hr { size: 1px; }
+        body {background-color:#dddddd; margin-top:0px; margin-left:0px; font-family: Arial}
+        .ContentTitle{padding:3px; position:relative;top:-40px;color:#5eb2e9;margin-left:5px;}
+        .Master {background-color:#ffffff; margin-right:auto; margin-left:auto; display:block; width:980px;}
+        .PageHeader { background-image:url(/images/Header.jpg); background-repeat:no-repeat;	width:980px; height:183px; }
+        .TipTopNavigation {color: #FFFFFF; position:relative; top:5px; left:450px; text-align:right; width:500px;}
+        TipTopNavigationLinks, a.TipTopNavigationLinks, a.TipTopNavigationLinks:Active 
+        {color: #FFFFFF; text-decoration:none;}
+        a.TipTopNavigationLinks:Hover {text-decoration:underline;color:#FFFFFF;}
+        .Navigation { font-family:Arial; position:relative; left:150px; }
+        .PrimaryNav { width:819px; position:absolute; top:104px; left:-10px; }
+        .PrimaryNavLink { position:relative; top:5px; left:10px; color:#FFFFFF; font-size:16px; padding-right:10px; text-decoration:none; font-weight:bold; }
+        .PrimaryNavLink:hover { text-decoration:underline; }
+        .PrimaryNavLinkActive {z-index:100;text-decoration:none; padding-bottom:10px; padding-right:10px;position:relative;top:5px;left:10px;color:#FF7828; background-image:url(/images/TopNavDownArrow.jpg); background-repeat:no-repeat; background-position: 0px 21px; overflow:visible; font-weight:bold;}
+        .SecondaryNav { width:819px; height:30px; background-color:#000000; color:#FF7828; position:relative; top:134px; }
+        .SecondaryNavLink {text-decoration:none; position:relative; top:5px; left:10px; color:#FF7828; font-size:12px; padding-right:10px; }
+        .LeftNav {width:147px;  float:left; position:relative;}
+        .ContentMain { font-family:Arial;<%= ContentMainLeft %> position:relative; background-image:url(/images/ContentBackground.jpg); background-color:#c1dde8; width:819px; z-index:100; }
+        .ContentHeader { background-image:url(/images/ContentHeader.jpg); background-repeat:no-repeat; width:819px; height:57px; }
+        .Content {background-image:url(/images/ContentFooter.jpg); background-position:bottom; background-repeat:no-repeat; padding:10px; position:relative;<%= ContentHeight %> min-height:423px; }
+        .ContentFooter { font-family:arial; color:#FF7828; background-color:#000000; font-size:12px; height:30px; }
+        .FooterCopyRight { position:relative; top:8px; padding-left:10px; float: left; }
+        .FooterLinks { position:relative; top:8px; float: right; }
+        .ContentFooterLink { color:#FF7828; text-decoration:none; padding-right:10px; }
+        .ContentFooterBackground { height:15px; background-color:#0a3158; width:980px; position:relative; z-index:50; }
+        .ContentFooterBackgroundHelper { height:35px;z-index:100;top:-30px;display:block;position:absolute;width:100%;background-color:#0a3158; }
+        
+        /* CONTENT STYLES */
+        .divContainer {font-size:12px;background-image:url(/images/transparent.gif); padding: 10px; width:600px; margin-left:auto;margin-right:auto;text-align:center; }
+        .divContainerRow { text-align:left; float:none;}
+        .divContainerCell { display: block; }
+        .divContainerFooter { text-align:right; }
+        .divContainerTitle { font-weight:bold;text-align:left;padding-bottom:10px;padding-top:10px;}
+        .divContainerCellHeader {display:block; height:100%;padding-right:5px; width:150px;text-align:right;font-weight:bold;float:left; }
+        .divInnerRowHeader {text-align: right; width: 100px; font-size: 10px; color: #000000; font-weight:bold; float:left; padding-right: 5px; }
+        .divInnerRowCell { width: 100%; font-size: 10px; color: #000000; padding-left: 5px; }
+        .Wizard { width:400px;padding:10px 10px 10px 10px; }
+        .WizardSideBar { width:100px;font-size:10px;display:none; }
+        
+        /* PROFILE STYLES */
+        .ProfileName { font-size:16px; font-family:Arial; font-weight:bold;	}
+        
+        /* ALERT STYLES */
+        .AlertDateRow { }
+        .AlertHeader { font-weight:bold; text-align:left; }
+        .AlertHeader a { padding-left: 5px; }
+        .AlertRow { text-align:left; }
+        .AlertRow a { padding-left: 5px; }
+        .AlertIcon { }
+        .AlertSeparator { border-top:solid 1px #000000; padding-top: 5px; padding-bottom: 5px; }
+        .AlertActionItems { }
+        
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">  
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>  
+        <div class="Master">
+	        <div class="PageHeader">
+	            <div class="TipTopNavigation"><Fisharoo:LogInLinks ID="LogInLinks1" runat="server" /></div>
+		        <div class="Navigation">
+			        <div class="PrimaryNav">
+<asp:Repeater ID="repPrimaryNav" OnItemDataBound="repPrimaryNav_ItemDataBound" runat="server">
+    <ItemTemplate>
+        <asp:HyperLink ID="linkPrimaryNav" CssClass="PrimaryNavLink" runat="server"></asp:HyperLink>
+    </ItemTemplate>
+</asp:Repeater>
+			            <asp:ContentPlaceHolder ID="PrimaryNav" runat="server"></asp:ContentPlaceHolder>
+			        </div>
+			        <div class="SecondaryNav">
+				        <asp:ContentPlaceHolder ID="SecondaryNav" runat="server"></asp:ContentPlaceHolder>
+<asp:Repeater ID="repSecondaryNav" OnItemDataBound="repSecondaryNav_ItemDataBound" runat="server">
+    <ItemTemplate>
+        <asp:HyperLink ID="linkSecondaryNav" CssClass="SecondaryNavLink" runat="server"></asp:HyperLink>
+    </ItemTemplate>
+</asp:Repeater>
+			        </div>
+		        </div>
+	        </div>
+	        <div class="LeftNav">
+	            <asp:ContentPlaceHolder ID="LeftNavTop" runat="server"></asp:ContentPlaceHolder>
+	            <asp:ContentPlaceHolder ID="LeftNavBottom" runat="server"></asp:ContentPlaceHolder>
+	        </div>
+	        <div class="ContentMain">
+		        <div class="ContentHeader">
+		            &nbsp;&nbsp;&nbsp;<h2 class="ContentTitle"><asp:Label ID="lblPageTitle" runat="server"></asp:Label></h2>
+		            <asp:ContentPlaceHolder ID="ContentHeader" runat="server"></asp:ContentPlaceHolder>
+		        </div>
+		        <div class="Content">
+		            <img width="1" height="400" align="left" />
+		            <asp:ContentPlaceHolder ID="Content" runat="server"></asp:ContentPlaceHolder>
+		        </div>
+		        <div class="ContentFooter">
+			        <div class="FooterCopyRight" style="float:left;">Fisharoo © 2008</div>
+			        <div class="FooterLinks" style="float:right;">
+			            <asp:Repeater OnItemDataBound="repFooter_ItemDataBound" ID="repFooterNav" runat="server">
+			                <ItemTemplate>
+			                    <asp:HyperLink CssClass="ContentFooterLink" ID="linkFooterNav" runat="server"></asp:HyperLink>
+			                </ItemTemplate>
+			            </asp:Repeater>
+			        </div>
+			        
+		        </div>
+	        </div>
+	        <div class="ContentFooterBackground">
+	            <div class="ContentFooterBackgroundHelper"></div>
+	        </div>
+        </div>
+    </form>
+</body>
+</html>

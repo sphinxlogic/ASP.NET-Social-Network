@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooWeb", "FisharooWeb\FisharooWeb.csproj", "{9F340310-5862-463F-80FF-9E71864E3BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooCore", "FisharooCore\FisharooCore.csproj", "{D9BDE5FA-928D-41E8-9C86-5278314D9B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooWebTests", "FisharooWebTests\FisharooWebTests.csproj", "{09D07A07-F33D-4D80-8585-A417A4645146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooCoreTests", "FisharooCoreTests\FisharooCoreTests.csproj", "{F90A1257-604A-45CA-9844-CDA24F9D2437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FBDC1490-7782-4621-BD08-FBFFCE80257B}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter10_Notes.txt = Chapter10_Notes.txt
+		Chapter11_Notes.txt = Chapter11_Notes.txt
+		Chapter12_Notes.txt = Chapter12_Notes.txt
+		StructureMap.config = StructureMap.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{8AC87042-22F5-4596-B2F7-3DC77D7CB87A}"
+	ProjectSection(SolutionItems) = preProject
+		app.config = app.config
+		..\Databases\AttachFisharoo.sql = ..\Databases\AttachFisharoo.sql
+		..\Databases\AttachFisharoo_DevServer.sql = ..\Databases\AttachFisharoo_DevServer.sql
+		..\Build\build.bat = ..\Build\build.bat
+		..\Build\ccnet.config = ..\Build\ccnet.config
+		..\Build\clickToBuild.bat = ..\Build\clickToBuild.bat
+		..\Databases\DropFisharoo.sql = ..\Databases\DropFisharoo.sql
+		..\Build\Fisharoo.build = ..\Build\Fisharoo.build
+		..\Databases\KillProcessesUsingFisharoo.sql = ..\Databases\KillProcessesUsingFisharoo.sql
+		StructureMap.config = StructureMap.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTasks", "BuildTasks\BuildTasks.csproj", "{A3C43075-5FE3-414E-8C4F-A6A80A000A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooAdminConsole", "FisharooAdminConsole\FisharooAdminConsole.csproj", "{C3E617C6-356C-4090-BDFC-20DB99384355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooAdminConsoleTests", "FisharooAdminConsoleTests\FisharooAdminConsoleTests.csproj", "{C12D7652-44FA-4061-9DD9-773CE1249CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooOutlookImporter", "FisharooOutlookImporter\FisharooOutlookImporter.csproj", "{2B8B5BD5-63FB-416B-919D-7F5656E485C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooOutlookImporterTester", "FisharooOutlookImporterTester\FisharooOutlookImporterTester.csproj", "{0C7373B4-F4A2-4F9D-8609-FF12C530C852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{F891AC9B-6A3A-4EE7-920C-3627CD212257}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\snippets\DeleteObject.snippet = ..\..\snippets\DeleteObject.snippet
+		..\..\snippets\FisharooUsing.snippet = ..\..\snippets\FisharooUsing.snippet
+		..\..\snippets\Presenter.snippet = ..\..\snippets\Presenter.snippet
+		..\..\snippets\SaveLookUpObject.snippet = ..\..\snippets\SaveLookUpObject.snippet
+		..\..\snippets\SaveObject.snippet = ..\..\snippets\SaveObject.snippet
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuceneSearchIndexBuilder", "LuceneSearchIndexBuilder\LuceneSearchIndexBuilder.csproj", "{2CC3FE10-BDEA-4086-9268-8DC111651324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enyim.Caching", "Enyim.Caching\Enyim.Caching.csproj", "{D438C0B3-A168-40B8-BDDD-61F0939DFF35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FisharooMailQueueProcessor", "FisharooMailQueueProcessor\FisharooMailQueueProcessor.csproj", "{DDAD0CD0-6E7B-4DB5-917E-EBE329716206}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F340310-5862-463F-80FF-9E71864E3BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F340310-5862-463F-80FF-9E71864E3BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F340310-5862-463F-80FF-9E71864E3BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F340310-5862-463F-80FF-9E71864E3BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BDE5FA-928D-41E8-9C86-5278314D9B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BDE5FA-928D-41E8-9C86-5278314D9B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BDE5FA-928D-41E8-9C86-5278314D9B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BDE5FA-928D-41E8-9C86-5278314D9B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D07A07-F33D-4D80-8585-A417A4645146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D07A07-F33D-4D80-8585-A417A4645146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D07A07-F33D-4D80-8585-A417A4645146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D07A07-F33D-4D80-8585-A417A4645146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90A1257-604A-45CA-9844-CDA24F9D2437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90A1257-604A-45CA-9844-CDA24F9D2437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90A1257-604A-45CA-9844-CDA24F9D2437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90A1257-604A-45CA-9844-CDA24F9D2437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C43075-5FE3-414E-8C4F-A6A80A000A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C43075-5FE3-414E-8C4F-A6A80A000A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C43075-5FE3-414E-8C4F-A6A80A000A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C43075-5FE3-414E-8C4F-A6A80A000A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E617C6-356C-4090-BDFC-20DB99384355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E617C6-356C-4090-BDFC-20DB99384355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E617C6-356C-4090-BDFC-20DB99384355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E617C6-356C-4090-BDFC-20DB99384355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12D7652-44FA-4061-9DD9-773CE1249CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12D7652-44FA-4061-9DD9-773CE1249CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12D7652-44FA-4061-9DD9-773CE1249CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12D7652-44FA-4061-9DD9-773CE1249CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8B5BD5-63FB-416B-919D-7F5656E485C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8B5BD5-63FB-416B-919D-7F5656E485C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8B5BD5-63FB-416B-919D-7F5656E485C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8B5BD5-63FB-416B-919D-7F5656E485C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7373B4-F4A2-4F9D-8609-FF12C530C852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7373B4-F4A2-4F9D-8609-FF12C530C852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7373B4-F4A2-4F9D-8609-FF12C530C852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7373B4-F4A2-4F9D-8609-FF12C530C852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC3FE10-BDEA-4086-9268-8DC111651324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC3FE10-BDEA-4086-9268-8DC111651324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC3FE10-BDEA-4086-9268-8DC111651324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC3FE10-BDEA-4086-9268-8DC111651324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D438C0B3-A168-40B8-BDDD-61F0939DFF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D438C0B3-A168-40B8-BDDD-61F0939DFF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D438C0B3-A168-40B8-BDDD-61F0939DFF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D438C0B3-A168-40B8-BDDD-61F0939DFF35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDAD0CD0-6E7B-4DB5-917E-EBE329716206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAD0CD0-6E7B-4DB5-917E-EBE329716206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAD0CD0-6E7B-4DB5-917E-EBE329716206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAD0CD0-6E7B-4DB5-917E-EBE329716206}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AC87042-22F5-4596-B2F7-3DC77D7CB87A} = {FBDC1490-7782-4621-BD08-FBFFCE80257B}
+		{F891AC9B-6A3A-4EE7-920C-3627CD212257} = {FBDC1490-7782-4621-BD08-FBFFCE80257B}
+	EndGlobalSection
+EndGlobal

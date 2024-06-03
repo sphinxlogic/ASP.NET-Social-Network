@@ -1,0 +1,25 @@
+------------------------------------------------------------------------------
+--- TODO
+
+
+------------------------------------------------------------------------------
+--- COMPLETED
+• rating user control shows average rating and "rate this" link
+	• clicking to give rating is showing in ASP.NET modal window
+	• modal window shows all the rating options
+• rating repositories
+• tagging user control
+	• should have different views (tag this, tag cloud, tag this and tag cloud, and global tag cloud)
+• tagging repositories
+• commenting repositories
+• create tag landing page (configureable)
+	• shows all things that a tag is linked too for the site (global)
+	• shows all things that a tag is linked too for the parent (parent)
+• plugging rating into images
+• tag cloud on home page (global tag cloud)
+• commenting user control
+	• modal window to add comment
+	• top 10 comments shown
+	• modal window to show the rest of the comments
+
+• plugging commenting into blogs

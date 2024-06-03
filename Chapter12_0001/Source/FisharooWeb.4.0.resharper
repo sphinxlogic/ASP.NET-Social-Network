@@ -1,0 +1,11 @@
+<Configuration>
+  <CodeAnnotations>
+    <Namespace>JetBrains.Annotations</Namespace>
+    <DefaultNamespace>JetBrains.Annotations</DefaultNamespace>
+  </CodeAnnotations>
+  <Daemon.SolutionSettings>
+    <SkipFilesAndFolders>
+      <Item>FBDC1490-7782-4621-BD08-FBFFCE80257B/f:Chapter12_Notes.txt</Item>
+    </SkipFilesAndFolders>
+  </Daemon.SolutionSettings>
+</Configuration>

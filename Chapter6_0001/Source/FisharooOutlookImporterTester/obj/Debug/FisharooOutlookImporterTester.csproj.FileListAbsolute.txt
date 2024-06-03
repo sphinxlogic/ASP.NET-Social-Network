@@ -1,0 +1,10 @@
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\bin\Debug\FisharooOutlookImporterTester.exe
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\bin\Debug\FisharooOutlookImporterTester.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\bin\Debug\FisharooOutlookImporter.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\bin\Debug\FisharooOutlookImporter.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\obj\Debug\FisharooOutlookImporterTester.Form1.resources
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\obj\Debug\FisharooOutlookImporterTester.Properties.Resources.resources
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\obj\Debug\FisharooOutlookImporterTester.csproj.GenerateResource.Cache
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\obj\Debug\FisharooOutlookImporterTester.exe
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporterTester\obj\Debug\FisharooOutlookImporterTester.pdb

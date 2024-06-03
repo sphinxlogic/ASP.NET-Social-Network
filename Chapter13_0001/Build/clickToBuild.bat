@@ -1,0 +1,1 @@
+build.bat build & build.bat buildDatabaseLocal & pause

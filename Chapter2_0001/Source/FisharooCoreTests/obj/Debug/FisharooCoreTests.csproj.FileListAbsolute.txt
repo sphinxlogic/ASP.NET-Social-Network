@@ -1,0 +1,8 @@
+C:\Projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\StructureMap.config
+C:\Projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisahroo.FisharooCoreTests.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisahroo.FisharooCoreTests.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisharoo.FisharooCore.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooCoreTests\bin\Debug\Fisharoo.FisharooCore.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooCoreTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooCoreTests\obj\Debug\Fisahroo.FisharooCoreTests.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooCoreTests\obj\Debug\Fisahroo.FisharooCoreTests.pdb

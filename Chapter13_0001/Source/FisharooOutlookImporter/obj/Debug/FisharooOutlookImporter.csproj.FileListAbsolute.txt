@@ -1,0 +1,16 @@
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\bin\Debug\FisharooOutlookImporter.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\bin\Debug\FisharooOutlookImporter.pdb
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.csproj.ResolveComReference.cache
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.OutlookImporter.resources
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.csproj.GenerateResource.Cache
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.dll
+C:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.pdb
+P:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\bin\Debug\FisharooOutlookImporter.dll
+P:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\bin\Debug\FisharooOutlookImporter.pdb
+P:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\ResolveAssemblyReference.cache
+P:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.csproj.ResolveComReference.cache
+P:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.OutlookImporter.resources
+P:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.csproj.GenerateResource.Cache
+P:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.dll
+P:\Projects\Fisharoo\trunk\Source\FisharooOutlookImporter\obj\Debug\FisharooOutlookImporter.pdb

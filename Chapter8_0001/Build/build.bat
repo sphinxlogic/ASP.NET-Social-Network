@@ -1,0 +1,1 @@
+..\binaries\nant\nant.exe -buildfile:Fisharoo.build %*

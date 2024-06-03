@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\projects\Fisharoo\trunk\Source\FisharooWebTests\bin\debug\Fisharoo.FisharooWebTests.dll" total="0" failures="0" not-run="0" date="2008-01-26" time="10:01:13">
+  <environment nunit-version="2.2.8.0" clr-version="2.0.50727.1433" os-version="Microsoft Windows NT 6.0.6000.0" platform="Win32NT" cwd="C:\projects\Fisharoo\trunk\Build" machine-name="DEV1" user="asiemer" user-domain="dev1" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\projects\Fisharoo\trunk\Source\FisharooWebTests\bin\debug\Fisharoo.FisharooWebTests.dll" success="True" time="0.001" asserts="0">
+    <results />
+  </test-suite>
+</test-results>

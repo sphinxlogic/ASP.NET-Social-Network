@@ -1,0 +1,1 @@
+build.bat cruise & build.bat buildDatabaseDevelopment& pause

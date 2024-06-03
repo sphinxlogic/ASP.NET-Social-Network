@@ -1,0 +1,455 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F340310-5862-463F-80FF-9E71864E3BB4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fisharoo.FisharooWeb</RootNamespace>
+    <AssemblyName>Fisharoo.FisharooWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10618.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\AndyDocuments\Business\Tutorials\AjaxTest\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL" />
+    <Reference Include="StructureMap, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts\AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Interface\IVerifyEmail.cs" />
+    <Compile Include="Accounts\Presenter\VerifyEmailPresenter.cs" />
+    <Compile Include="Accounts\VerifyEmail.aspx.cs">
+      <DependentUpon>VerifyEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\VerifyEmail.aspx.designer.cs">
+      <DependentUpon>VerifyEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Interface\IRecoverPassword.cs" />
+    <Compile Include="Accounts\Presenter\RecoverPasswordPresenter.cs" />
+    <Compile Include="Accounts\RecoverPassword.aspx.cs">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\RecoverPassword.aspx.designer.cs">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Interface\IEditAccount.cs" />
+    <Compile Include="Accounts\Interface\ILogin.cs" />
+    <Compile Include="Accounts\Interface\IRegister.cs" />
+    <Compile Include="Accounts\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\EditAccount.aspx.cs">
+      <DependentUpon>EditAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\EditAccount.aspx.designer.cs">
+      <DependentUpon>EditAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Presenter\EditAccountPresenter.cs" />
+    <Compile Include="Accounts\Presenter\LoginPresenter.cs" />
+    <Compile Include="Accounts\Presenter\RegisterPresenter.cs" />
+    <Compile Include="Accounts\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Advertisers.aspx.cs">
+      <DependentUpon>Advertisers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Advertisers.aspx.designer.cs">
+      <DependentUpon>Advertisers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blogs\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blogs\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="images\ProfileAvatar\ProfileImage.aspx.cs">
+      <DependentUpon>ProfileImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="images\ProfileAvatar\ProfileImage.aspx.designer.cs">
+      <DependentUpon>ProfileImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageNotFound.aspx.cs">
+      <DependentUpon>PageNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageNotFound.aspx.designer.cs">
+      <DependentUpon>PageNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forum\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forum\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Friends\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Friends\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Galleries\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Galleries\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Groups\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Groups\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\UrlRewrite.cs" />
+    <Compile Include="Help.aspx.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Help.aspx.designer.cs">
+      <DependentUpon>Help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="images\CaptchaImage\JpegImage.aspx.cs">
+      <DependentUpon>JpegImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mail\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mail\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Privacy.aspx.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privacy.aspx.designer.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profiles\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles\Interface\IDefault.cs" />
+    <Compile Include="Profiles\Interface\IManagePrivacy.cs" />
+    <Compile Include="Profiles\Interface\IProfile.cs" />
+    <Compile Include="Profiles\Interface\IUploadAvatar.cs" />
+    <Compile Include="Profiles\Presenter\DefaultPresenter.cs" />
+    <Compile Include="Profiles\Presenter\ManagePrivacyPresenter.cs" />
+    <Compile Include="Profiles\Presenter\ProfilePresenter.cs" />
+    <Compile Include="Profiles\Presenter\UploadAvatarPresenter.cs" />
+    <Compile Include="Profiles\UploadAvatar.aspx.cs">
+      <DependentUpon>UploadAvatar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profiles\UploadAvatar.aspx.designer.cs">
+      <DependentUpon>UploadAvatar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profiles\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles\ManagePrivacy.aspx.cs">
+      <DependentUpon>ManagePrivacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profiles\ManagePrivacy.aspx.designer.cs">
+      <DependentUpon>ManagePrivacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles\Interface\IManageProfile.cs" />
+    <Compile Include="Profiles\ManageProfile.aspx.cs">
+      <DependentUpon>ManageProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profiles\ManageProfile.aspx.designer.cs">
+      <DependentUpon>ManageProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles\Presenter\ManageProfilePresenter.cs" />
+    <Compile Include="Terms.aspx.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terms.aspx.designer.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMaster.Master.cs">
+      <DependentUpon>SiteMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMaster.Master.designer.cs">
+      <DependentUpon>SiteMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Interfaces\ILogInLinks.cs" />
+    <Compile Include="UserControls\LogInLinks.ascx.cs">
+      <DependentUpon>LogInLinks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\LogInLinks.ascx.designer.cs">
+      <DependentUpon>LogInLinks.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Presenters\LogInLinksPresenter.cs" />
+    <Compile Include="VirtualTanks\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VirtualTanks\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FisharooCore\FisharooCore.csproj">
+      <Project>{D9BDE5FA-928D-41E8-9C86-5278314D9B4A}</Project>
+      <Name>FisharooCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\StructureMap.config">
+      <Link>StructureMap.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Advertisers.aspx" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Help.aspx" />
+    <Content Include="Privacy.aspx" />
+    <Content Include="Terms.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="images\ColorPallet.jpg" />
+    <Content Include="images\ContentBackground.jpg" />
+    <Content Include="images\ContentFooter.jpg" />
+    <Content Include="images\ContentHeader.jpg" />
+    <Content Include="images\Header.jpg" />
+    <Content Include="images\TopNavDownArrow.jpg" />
+    <Content Include="Search.aspx" />
+    <Content Include="SiteMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accounts\Login.aspx" />
+    <Content Include="Accounts\EditAccount.aspx" />
+    <Content Include="Accounts\Register.aspx" />
+    <Content Include="Accounts\Default.aspx" />
+    <Content Include="Blogs\Default.aspx" />
+    <Content Include="Forum\Default.aspx" />
+    <Content Include="Friends\Default.aspx" />
+    <Content Include="Galleries\Default.aspx" />
+    <Content Include="Groups\Default.aspx" />
+    <Content Include="images\CaptchaImage\JpegImage.aspx" />
+    <Content Include="Mail\Default.aspx" />
+    <Content Include="UserControls\LogInLinks.ascx" />
+    <Content Include="VirtualTanks\Default.aspx" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accounts\AccessDenied.aspx" />
+    <Content Include="Accounts\VerifyEmail.aspx" />
+    <Content Include="Accounts\RecoverPassword.aspx" />
+    <Content Include="App_Themes\Default\default.skin" />
+    <Content Include="images\ProfileAvatar\Female.jpg" />
+    <Content Include="images\ProfileAvatar\Male.jpg" />
+    <Content Include="images\ProfileAvatar\ProfileImage.aspx" />
+    <Content Include="js\cropper\cropper.css" />
+    <Content Include="js\cropper\cropper.js" />
+    <Content Include="js\cropper\cropper.uncompressed.js" />
+    <Content Include="js\cropper\lib\builder.js" />
+    <Content Include="js\cropper\lib\controls.js" />
+    <Content Include="js\cropper\lib\dragdrop.js" />
+    <Content Include="js\cropper\lib\effects.js" />
+    <Content Include="js\cropper\lib\prototype.js" />
+    <Content Include="js\cropper\lib\scriptaculous.js" />
+    <Content Include="js\cropper\lib\slider.js" />
+    <Content Include="js\cropper\lib\unittest.js" />
+    <Content Include="js\cropper\licence.txt" />
+    <Content Include="js\cropper\marqueeHoriz.gif" />
+    <Content Include="js\cropper\marqueeVert.gif" />
+    <Content Include="js\cropper\tests\castle.jpg" />
+    <Content Include="js\cropper\tests\castleMed.jpg" />
+    <Content Include="js\cropper\tests\example-Basic.htm" />
+    <Content Include="js\cropper\tests\example-CoordsOnLoad.htm" />
+    <Content Include="js\cropper\tests\example-CoordsOnLoadWithRatio.htm" />
+    <Content Include="js\cropper\tests\example-CSS-Absolute.htm" />
+    <Content Include="js\cropper\tests\example-CSS-Float.htm" />
+    <Content Include="js\cropper\tests\example-CSS-Relative.htm" />
+    <Content Include="js\cropper\tests\example-Dimensions.htm" />
+    <Content Include="js\cropper\tests\example-DynamicImage.htm" />
+    <Content Include="js\cropper\tests\example-FixedRatio.htm" />
+    <Content Include="js\cropper\tests\example-MinimumDimensions.htm" />
+    <Content Include="js\cropper\tests\example-MinimumWidth.htm" />
+    <Content Include="js\cropper\tests\example-Preview.htm" />
+    <Content Include="js\cropper\tests\poppy.jpg" />
+    <Content Include="js\cropper\tests\staticHTMLStructure.htm" />
+    <Content Include="PageNotFound.aspx" />
+    <Content Include="Profiles\Default.aspx" />
+    <Content Include="Profiles\UploadAvatar.aspx" />
+    <Content Include="Profiles\Profile.aspx" />
+    <Content Include="Profiles\ManagePrivacy.aspx" />
+    <Content Include="Profiles\ManageProfile.aspx" />
+    <Content Include="ToDo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Interface\.svn\all-wcprops" />
+    <None Include="Interface\.svn\entries" />
+    <None Include="Interface\.svn\format" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Accounts\UserControls\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="css\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interface\.svn\prop-base\" />
+    <Folder Include="Interface\.svn\props\" />
+    <Folder Include="Interface\.svn\text-base\" />
+    <Folder Include="Interface\.svn\tmp\prop-base\" />
+    <Folder Include="Interface\.svn\tmp\props\" />
+    <Folder Include="Interface\.svn\tmp\text-base\" />
+    <Folder Include="Presenter\" />
+    <Folder Include="Profiles\UserControls\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2237</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
