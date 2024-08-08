@@ -1,3 +1,3 @@
 # ASP.NET-Social-Network
 
-Where DNA Matchmaking, Horoscopes, Health Records, might have to work on (HIPPA) and Birtndays are Madatory.
+Where DNA Matchmaking, Horoscopes, Health Records, Family Tree, might have to work on (HIPPA) and Birtndays, Localization of free speech are Madatory.
